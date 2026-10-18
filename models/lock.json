@@ -1,0 +1,21 @@
+{
+  "selection": {
+    "config_id": "LinearSVM_03",
+    "model": "LinearSVM",
+    "params": {
+      "C": 1,
+      "class_weight": null
+    },
+    "AP_mean": 0.830868695092873,
+    "AP_std": 0.07504893520385902,
+    "selected_using": "train CV only"
+  },
+  "threshold": -0.37317585243277074,
+  "score_type": "decision_score",
+  "validation_precision_goal_met": true,
+  "model_sha256": "3592e1ffa4766ddd7755c88b6d1e42f51abb26d216ebccfa03035b30e156093b",
+  "protocol_sha256": "b3984cfa66afb697f4c4e2a745b172daadd6a1030db52c415d9bb18a555194ab",
+  "locked_before_test": true,
+  "test_used_for_selection": false,
+  "n_features": 15231
+}

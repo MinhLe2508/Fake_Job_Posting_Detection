@@ -1,0 +1,90 @@
+CV fold 1: views 26.0s
+NaiveBayes_01 fold=1 AP=0.6857 fit=0.0s
+NaiveBayes_02 fold=1 AP=0.6857 fit=0.0s
+NaiveBayes_03 fold=1 AP=0.6622 fit=0.0s
+NaiveBayes_04 fold=1 AP=0.6622 fit=0.0s
+NaiveBayes_05 fold=1 AP=0.5286 fit=0.0s
+NaiveBayes_06 fold=1 AP=0.5286 fit=0.0s
+NaiveBayes_07 fold=1 AP=0.4000 fit=0.0s
+NaiveBayes_08 fold=1 AP=0.4000 fit=0.0s
+HistGradientBoosting_01 fold=1 AP=0.7054 fit=36.8s
+HistGradientBoosting_02 fold=1 AP=0.7475 fit=62.4s
+HistGradientBoosting_03 fold=1 AP=0.7307 fit=37.8s
+HistGradientBoosting_04 fold=1 AP=0.7443 fit=61.1s
+HistGradientBoosting_05 fold=1 AP=0.7344 fit=38.4s
+HistGradientBoosting_06 fold=1 AP=0.7556 fit=62.4s
+HistGradientBoosting_07 fold=1 AP=0.7494 fit=38.5s
+HistGradientBoosting_08 fold=1 AP=0.7618 fit=59.9s
+CV fold 2: views 26.3s
+NaiveBayes_01 fold=2 AP=0.8346 fit=0.0s
+NaiveBayes_02 fold=2 AP=0.8346 fit=0.0s
+NaiveBayes_03 fold=2 AP=0.8012 fit=0.0s
+NaiveBayes_04 fold=2 AP=0.8012 fit=0.0s
+NaiveBayes_05 fold=2 AP=0.6095 fit=0.0s
+NaiveBayes_06 fold=2 AP=0.6095 fit=0.0s
+NaiveBayes_07 fold=2 AP=0.4320 fit=0.0s
+NaiveBayes_08 fold=2 AP=0.4320 fit=0.0s
+HistGradientBoosting_01 fold=2 AP=0.9164 fit=36.4s
+HistGradientBoosting_02 fold=2 AP=0.9167 fit=59.3s
+HistGradientBoosting_03 fold=2 AP=0.9227 fit=37.1s
+HistGradientBoosting_04 fold=2 AP=0.9297 fit=59.2s
+HistGradientBoosting_05 fold=2 AP=0.9116 fit=36.1s
+HistGradientBoosting_06 fold=2 AP=0.9154 fit=58.2s
+HistGradientBoosting_07 fold=2 AP=0.9247 fit=36.5s
+HistGradientBoosting_08 fold=2 AP=0.9204 fit=58.8s
+CV fold 3: views 24.8s
+NaiveBayes_01 fold=3 AP=0.8326 fit=0.0s
+NaiveBayes_02 fold=3 AP=0.8326 fit=0.0s
+NaiveBayes_03 fold=3 AP=0.8041 fit=0.0s
+NaiveBayes_04 fold=3 AP=0.8041 fit=0.0s
+NaiveBayes_05 fold=3 AP=0.6671 fit=0.0s
+NaiveBayes_06 fold=3 AP=0.6671 fit=0.0s
+NaiveBayes_07 fold=3 AP=0.5289 fit=0.0s
+NaiveBayes_08 fold=3 AP=0.5289 fit=0.0s
+HistGradientBoosting_01 fold=3 AP=0.8870 fit=35.0s
+HistGradientBoosting_02 fold=3 AP=0.8852 fit=56.6s
+HistGradientBoosting_03 fold=3 AP=0.8974 fit=36.1s
+HistGradientBoosting_04 fold=3 AP=0.8942 fit=57.1s
+HistGradientBoosting_05 fold=3 AP=0.8753 fit=36.5s
+HistGradientBoosting_06 fold=3 AP=0.8841 fit=56.4s
+HistGradientBoosting_07 fold=3 AP=0.8888 fit=35.8s
+HistGradientBoosting_08 fold=3 AP=0.8920 fit=58.5s
+CV fold 4: views 25.4s
+NaiveBayes_01 fold=4 AP=0.7169 fit=0.0s
+NaiveBayes_02 fold=4 AP=0.7169 fit=0.0s
+NaiveBayes_03 fold=4 AP=0.6822 fit=0.0s
+NaiveBayes_04 fold=4 AP=0.6822 fit=0.0s
+NaiveBayes_05 fold=4 AP=0.5080 fit=0.0s
+NaiveBayes_06 fold=4 AP=0.5080 fit=0.0s
+NaiveBayes_07 fold=4 AP=0.3601 fit=0.0s
+NaiveBayes_08 fold=4 AP=0.3601 fit=0.0s
+HistGradientBoosting_01 fold=4 AP=0.8071 fit=36.8s
+HistGradientBoosting_02 fold=4 AP=0.8284 fit=55.8s
+HistGradientBoosting_03 fold=4 AP=0.8173 fit=36.0s
+HistGradientBoosting_04 fold=4 AP=0.8322 fit=56.7s
+HistGradientBoosting_05 fold=4 AP=0.8135 fit=36.4s
+HistGradientBoosting_06 fold=4 AP=0.8077 fit=58.1s
+HistGradientBoosting_07 fold=4 AP=0.8148 fit=35.7s
+HistGradientBoosting_08 fold=4 AP=0.8325 fit=57.5s
+CV fold 5: views 24.3s
+NaiveBayes_01 fold=5 AP=0.6593 fit=0.0s
+NaiveBayes_02 fold=5 AP=0.6593 fit=0.0s
+NaiveBayes_03 fold=5 AP=0.6389 fit=0.0s
+NaiveBayes_04 fold=5 AP=0.6389 fit=0.0s
+NaiveBayes_05 fold=5 AP=0.4867 fit=0.0s
+NaiveBayes_06 fold=5 AP=0.4867 fit=0.0s
+NaiveBayes_07 fold=5 AP=0.3622 fit=0.0s
+NaiveBayes_08 fold=5 AP=0.3622 fit=0.0s
+HistGradientBoosting_01 fold=5 AP=0.8373 fit=36.5s
+HistGradientBoosting_02 fold=5 AP=0.8481 fit=56.9s
+HistGradientBoosting_03 fold=5 AP=0.8214 fit=36.8s
+HistGradientBoosting_04 fold=5 AP=0.8435 fit=56.9s
+HistGradientBoosting_05 fold=5 AP=0.7890 fit=35.9s
+HistGradientBoosting_06 fold=5 AP=0.8412 fit=58.6s
+HistGradientBoosting_07 fold=5 AP=0.8164 fit=36.2s
+HistGradientBoosting_08 fold=5 AP=0.8321 fit=58.5s
+HistGradientBoosting HistGradientBoosting_04 {'config_id': 'HistGradientBoosting_04', 'AP_validation': 0.9179707285941103, 'fit_seconds': 66.592160322}
+LinearSVM LinearSVM_03 {'config_id': 'LinearSVM_03', 'AP_validation': 0.9037701547306111, 'fit_seconds': 0.9061624369999919}
+LogisticRegression LogisticRegression_08 {'config_id': 'LogisticRegression_08', 'AP_validation': 0.8992012134149968, 'fit_seconds': 4.606750917000014}
+RandomForest RandomForest_03 {'config_id': 'RandomForest_03', 'AP_validation': 0.8953427042018105, 'fit_seconds': 42.64782325899998}
+NaiveBayes NaiveBayes_01 {'config_id': 'NaiveBayes_01', 'AP_validation': 0.8352657028536269, 'fit_seconds': 0.029805627999991202}

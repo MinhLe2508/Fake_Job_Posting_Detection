@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-18",
+  "status": "post-lock exploratory extension; no deployment selection",
+  "nested": "train only; 3 outer x 3 inner StratifiedGroupKFold; seeds 20261018 and +outer; 8 configs each LR/SVM, original grid; 144 inner fits + 6 outer fits; same combined representation",
+  "scope": "Nested comparison covers LR/SVM only, not RF/NB/GB; content grouping, not employer independence; no confirmatory p-values",
+  "svm_ablation": "fixed C=1, weight=None; 5 variants x original 5 folds; chosen configuration is not reselected",
+  "calibration": "logistic sigmoid C=1e6 learned from train OOF combined SVM scores; evaluate validation only; heuristic sigmoid and train prior comparisons",
+  "cost": "fixed confusion matrix only, hypothetical unit FP cost=1 and FN ratios 1/5/10/20/50; no threshold search",
+  "frozen_hashes": {
+    "models/fake_job_detector.joblib": "3592e1ffa4766ddd7755c88b6d1e42f51abb26d216ebccfa03035b30e156093b",
+    "models/lock.json": "e38ded604e4947b88ffbb752489761a1e2a8f8e52542934741f7af3e7f073da9",
+    "results/protocol.json": "b3984cfa66afb697f4c4e2a745b172daadd6a1030db52c415d9bb18a555194ab",
+    "results/selection.json": "9250d186bec6e63b80311078ac412017ccbbe4a539fcdbffa72440f6d6c77b41",
+    "results/test_metrics.json": "dbcc068f7a4b2a9b31bae61222fd44aa62f11d968637d1d29278662bc54310fb",
+    "results/test_predictions.csv": "91537b4b2767cf31d2cbf91418da2e3b61446ef3692ad4965ac35258ba085086"
+  },
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+  "logical_cpus": 8,
+  "native_thread_limit": 1,
+  "libraries": {
+    "numpy": "2.5.3",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "code_sha256": "e97d82ba0cef32085e3f101e19f07a52e25d6cbfd6c521a6c1b1c3c90171b1fa"
+}

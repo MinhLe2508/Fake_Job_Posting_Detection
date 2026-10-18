@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "logical_cpus": 8,
+  "versions": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  }
+}

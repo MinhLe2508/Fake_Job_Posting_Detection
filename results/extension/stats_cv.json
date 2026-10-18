@@ -1,0 +1,130 @@
+{
+  "families_best_config": {
+    "HistGradientBoosting": "HistGradientBoosting_04",
+    "LinearSVM": "LinearSVM_03",
+    "LogisticRegression": "LogisticRegression_08",
+    "RandomForest": "RandomForest_03",
+    "NaiveBayes": "NaiveBayes_01"
+  },
+  "ap_per_fold": {
+    "HistGradientBoosting": [
+      0.7443388149392888,
+      0.9297436804150236,
+      0.894182002589778,
+      0.8322162569139623,
+      0.8435340480021617
+    ],
+    "LinearSVM": [
+      0.7303878602732561,
+      0.91548461797674,
+      0.8816281217058002,
+      0.845730764287388,
+      0.7811121112211805
+    ],
+    "LogisticRegression": [
+      0.7334869251522788,
+      0.9163040965770836,
+      0.8815263868436792,
+      0.8279958060121657,
+      0.7803016308383115
+    ],
+    "RandomForest": [
+      0.7437556336870881,
+      0.8867937450562653,
+      0.8784899320245192,
+      0.82691522918883,
+      0.7375504135342408
+    ],
+    "NaiveBayes": [
+      0.6856898235179283,
+      0.8345505802114015,
+      0.8325573055762285,
+      0.7169142004650713,
+      0.659292932205184
+    ]
+  },
+  "pairwise_vs_selected": [
+    {
+      "comparison": "LinearSVM vs HistGradientBoosting",
+      "config_other": "HistGradientBoosting_04",
+      "AP_svm_mean": 0.830868695092873,
+      "AP_other_mean": 0.848802960572043,
+      "mean_diff": -0.01793426547916992,
+      "sd_diff": 0.027506820211586326,
+      "folds_svm_better": 1,
+      "t_plain": -1.4579015832975146,
+      "p_plain": 0.21861116532576727,
+      "t_nadeau_bengio": -0.9719343888650098,
+      "p_nadeau_bengio": 0.38611993506188697,
+      "p_wilcoxon_exact": 0.1875,
+      "p_nadeau_bengio_holm": 1.0
+    },
+    {
+      "comparison": "LinearSVM vs LogisticRegression",
+      "config_other": "LogisticRegression_08",
+      "AP_svm_mean": 0.830868695092873,
+      "AP_other_mean": 0.8279229690847039,
+      "mean_diff": 0.002945726008169203,
+      "sd_diff": 0.008397696308837521,
+      "folds_svm_better": 3,
+      "t_plain": 0.7843631580751036,
+      "p_plain": 0.4766738380619408,
+      "t_nadeau_bengio": 0.5229087720500691,
+      "p_nadeau_bengio": 0.6286650782410695,
+      "p_wilcoxon_exact": 1.0,
+      "p_nadeau_bengio_holm": 1.0
+    },
+    {
+      "comparison": "LinearSVM vs RandomForest",
+      "config_other": "RandomForest_03",
+      "AP_svm_mean": 0.830868695092873,
+      "AP_other_mean": 0.8147009906981886,
+      "mean_diff": 0.01616770439468429,
+      "sd_diff": 0.022115516775004437,
+      "folds_svm_better": 4,
+      "t_plain": 1.6346932533584853,
+      "p_plain": 0.17745261928545783,
+      "t_nadeau_bengio": 1.0897955022389902,
+      "p_nadeau_bengio": 0.3370578153969292,
+      "p_wilcoxon_exact": 0.1875,
+      "p_nadeau_bengio_holm": 1.0
+    },
+    {
+      "comparison": "LinearSVM vs NaiveBayes",
+      "config_other": "NaiveBayes_01",
+      "AP_svm_mean": 0.830868695092873,
+      "AP_other_mean": 0.7458009683951626,
+      "mean_diff": 0.08506772669771023,
+      "sd_diff": 0.03939291439441518,
+      "folds_svm_better": 5,
+      "t_plain": 4.82871659819161,
+      "p_plain": 0.008469173360039006,
+      "t_nadeau_bengio": 3.2191443987944064,
+      "p_nadeau_bengio": 0.032306765419868065,
+      "p_wilcoxon_exact": 0.0625,
+      "p_nadeau_bengio_holm": 0.12922706167947226
+    }
+  ],
+  "friedman": {
+    "statistic": 16.0,
+    "p": 0.003019163651122605,
+    "mean_rank": {
+      "HistGradientBoosting": 1.2,
+      "LinearSVM": 2.4,
+      "LogisticRegression": 2.8,
+      "RandomForest": 3.6,
+      "NaiveBayes": 5.0
+    },
+    "n_folds": 5,
+    "n_models": 5
+  },
+  "notes": [
+    "Nadeau-Bengio: phương sai nhân (1/k + n_test/n_train) với k=5, n_test/n_train=1/4, df=4.",
+    "Wilcoxon exact với 5 cặp có p nhỏ nhất 0,0625, không thể đạt 0,05.",
+    "Chọn cấu hình tốt nhất mỗi họ trên cùng 5 fold làm các họ thắng bị chọn lọc (lạc quan); chỉ để mô tả.",
+    "Các fold không độc lập và cấu hình được chọn trên chính 5 fold; hiệu chỉnh không loại bỏ selection bias.",
+    "Friedman trên fold của một dataset không thay thế thiết kế nhiều dataset độc lập của Demšar; không dùng p=0,003 để khẳng định khác biệt.",
+    "So sánh mở rộng là so sánh pipeline do NB text-only và GB chọn 2000 đặc trưng."
+  ],
+  "inference_status": "exploratory_only; no confirmatory or equivalence claims"
+}
