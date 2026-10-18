@@ -1,0 +1,2 @@
+# Giữ nguyên byte của bộ kết quả đã khóa, tránh đổi LF/CRLF làm sai checksum.
+* -text
