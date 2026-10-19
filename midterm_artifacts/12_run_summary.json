@@ -1,0 +1,123 @@
+{
+  "source_file": "C:\\Users\\Lenovo\\Documents\\Codex\\2026-09-22\\b-n-l-m-t-chuy\\outputs\\Nhom7_TrackB_Midterm_dataset\\data\\fake_job_postings.csv",
+  "source_sha256": "59253295129d8b6a27607f9904f7d4ddf4dbb0ee35e079c7eb51b58b5e62bf60",
+  "random_state": 42,
+  "versions": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  },
+  "raw_shape": [
+    17880,
+    18
+  ],
+  "raw_class_counts": {
+    "0": 17014,
+    "1": 866
+  },
+  "duplicate_audit": {
+    "rows_before": 17880,
+    "conflicting_rows_quarantined": 0,
+    "exact_duplicate_rows_removed": 315,
+    "rows_after": 17565
+  },
+  "split_summary": {
+    "train": {
+      "rows": 10836.0,
+      "share_pct": 61.690862510674634,
+      "real": 10306.0,
+      "fake": 530.0,
+      "fake_pct": 4.8911037283130305
+    },
+    "validation": {
+      "rows": 3340.0,
+      "share_pct": 19.01508682038144,
+      "real": 3158.0,
+      "fake": 182.0,
+      "fake_pct": 5.449101796407185
+    },
+    "test": {
+      "rows": 3389.0,
+      "share_pct": 19.29405066894392,
+      "real": 3245.0,
+      "fake": 144.0,
+      "fake_pct": 4.249041015048687
+    }
+  },
+  "output_features": 15231,
+  "fit_scope": "train only",
+  "outlier_policy": "IQR audit on train; no automatic deletion or clipping",
+  "model_training_performed": false,
+  "cv_fold_audit": [
+    {
+      "fold": 1,
+      "fit_rows": 8668,
+      "fit_real": 8244,
+      "fit_fake": 424,
+      "eval_rows": 2168,
+      "eval_real": 2062,
+      "eval_fake": 106,
+      "eval_fake_pct": 4.889298892988929,
+      "eval_fake_groups": 84,
+      "deviation_pp": 0.0018048353241012505,
+      "group_overlap": 0
+    },
+    {
+      "fold": 2,
+      "fit_rows": 8669,
+      "fit_real": 8245,
+      "fit_fake": 424,
+      "eval_rows": 2167,
+      "eval_real": 2061,
+      "eval_fake": 106,
+      "eval_fake_pct": 4.891555145362252,
+      "eval_fake_groups": 83,
+      "deviation_pp": 0.00045141704922146975,
+      "group_overlap": 0
+    },
+    {
+      "fold": 3,
+      "fit_rows": 8669,
+      "fit_real": 8245,
+      "fit_fake": 424,
+      "eval_rows": 2167,
+      "eval_real": 2061,
+      "eval_fake": 106,
+      "eval_fake_pct": 4.891555145362252,
+      "eval_fake_groups": 81,
+      "deviation_pp": 0.00045141704922146975,
+      "group_overlap": 0
+    },
+    {
+      "fold": 4,
+      "fit_rows": 8669,
+      "fit_real": 8245,
+      "fit_fake": 424,
+      "eval_rows": 2167,
+      "eval_real": 2061,
+      "eval_fake": 106,
+      "eval_fake_pct": 4.891555145362252,
+      "eval_fake_groups": 83,
+      "deviation_pp": 0.00045141704922146975,
+      "group_overlap": 0
+    },
+    {
+      "fold": 5,
+      "fit_rows": 8669,
+      "fit_real": 8245,
+      "fit_fake": 424,
+      "eval_rows": 2167,
+      "eval_real": 2061,
+      "eval_fake": 106,
+      "eval_fake_pct": 4.891555145362252,
+      "eval_fake_groups": 81,
+      "deviation_pp": 0.00045141704922146975,
+      "group_overlap": 0
+    }
+  ],
+  "holdout_policy": "frozen data/split_manifest.csv",
+  "cv_policy": "5-fold StratifiedGroupKFold, shuffle=False; audited before fitting"
+}
