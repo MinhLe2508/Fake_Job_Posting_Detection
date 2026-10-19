@@ -1,0 +1,13 @@
+split,fit_n,eval_n,fit_fake,eval_fake,group_overlap
+outer_1,6919,3917,312,218,0
+outer_1_inner_1,4645,2274,205,107,0
+outer_1_inner_2,4651,2268,220,92,0
+outer_1_inner_3,4542,2377,199,113,0
+outer_2,7325,3511,371,159,0
+outer_2_inner_1,5077,2248,236,135,0
+outer_2_inner_2,4604,2721,278,93,0
+outer_2_inner_3,4969,2356,228,143,0
+outer_3,7428,3408,377,153,0
+outer_3_inner_1,5167,2261,253,124,0
+outer_3_inner_2,4955,2473,240,137,0
+outer_3_inner_3,4734,2694,261,116,0

@@ -1,0 +1,9 @@
+D:\MinhDangHocCode\DataMining\CK\review_2026-10-14\install_env\Lib\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [0] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+D:\MinhDangHocCode\DataMining\CK\review_2026-10-14\install_env\Lib\site-packages\sklearn\feature_selection\_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+{'model': 'HistGradientBoosting', 'config_id': 'HistGradientBoosting_04', 'fit_seconds': 66.0176603999571, 'predict_seconds': 0.8405931000015698, 'AP_validation': 0.9174574635932464, 'features': 2000}
+{'model': 'LinearSVM', 'config_id': 'LinearSVM_03', 'fit_seconds': 0.7369482000358403, 'predict_seconds': 0.003004099999088794, 'AP_validation': 0.9035526972463648, 'features': 15231}
+{'model': 'LogisticRegression', 'config_id': 'LogisticRegression_08', 'fit_seconds': 1.9515739000053145, 'predict_seconds': 0.0031979000195860863, 'AP_validation': 0.8991322421406148, 'features': 15231}
+{'model': 'RandomForest', 'config_id': 'RandomForest_03', 'fit_seconds': 15.572057700017467, 'predict_seconds': 0.2956433999934234, 'AP_validation': 0.9004475085609794, 'features': 15231}
+{'model': 'NaiveBayes', 'config_id': 'NaiveBayes_01', 'fit_seconds': 0.013448400015477091, 'predict_seconds': 0.006956700002774596, 'AP_validation': 0.8358541746236714, 'features': 15000}

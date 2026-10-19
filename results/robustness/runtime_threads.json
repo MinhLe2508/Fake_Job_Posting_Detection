@@ -1,0 +1,30 @@
+[
+  {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "prefix": "libscipy_openblas",
+    "filepath": "D:\\MinhDangHocCode\\DataMining\\CK\\review_2026-10-14\\install_env\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+    "version": "0.3.34.106.0",
+    "threading_layer": "pthreads",
+    "architecture": "Haswell"
+  },
+  {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "prefix": "libscipy_openblas",
+    "filepath": "D:\\MinhDangHocCode\\DataMining\\CK\\review_2026-10-14\\install_env\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-48c358d105077551cc9cc3ba79387ed5.dll",
+    "version": "0.3.29.dev",
+    "threading_layer": "pthreads",
+    "architecture": "Haswell"
+  },
+  {
+    "user_api": "openmp",
+    "internal_api": "openmp",
+    "num_threads": 1,
+    "prefix": "vcomp",
+    "filepath": "D:\\MinhDangHocCode\\DataMining\\CK\\review_2026-10-14\\install_env\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+    "version": null
+  }
+]

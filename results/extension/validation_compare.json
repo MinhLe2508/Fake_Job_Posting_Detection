@@ -1,0 +1,68 @@
+{
+  "models": {
+    "HistGradientBoosting": {
+      "config_id": "HistGradientBoosting_04",
+      "AP_validation": 0.9179707285941103,
+      "fit_seconds": 66.592160322
+    },
+    "LinearSVM": {
+      "config_id": "LinearSVM_03",
+      "AP_validation": 0.9037701547306111,
+      "fit_seconds": 0.9061624369999919
+    },
+    "LogisticRegression": {
+      "config_id": "LogisticRegression_08",
+      "AP_validation": 0.8992012134149968,
+      "fit_seconds": 4.606750917000014
+    },
+    "RandomForest": {
+      "config_id": "RandomForest_03",
+      "AP_validation": 0.8953427042018105,
+      "fit_seconds": 42.64782325899998
+    },
+    "NaiveBayes": {
+      "config_id": "NaiveBayes_01",
+      "AP_validation": 0.8352657028536269,
+      "fit_seconds": 0.029805627999991202
+    }
+  },
+  "consistency_check": {
+    "locked_validation_AP": 0.9035526972463648,
+    "refit_validation_AP": 0.9037701547306111,
+    "abs_diff": 0.0002174574842462862,
+    "environment_scikit_learn": "1.7.2"
+  },
+  "paired_group_bootstrap_AP_svm_minus_other": {
+    "HistGradientBoosting": {
+      "valid": 1000,
+      "mean": -0.013042884879952994,
+      "ci_low": -0.03879963617913807,
+      "ci_high": 0.012116586153764316,
+      "share_svm_better": 0.148
+    },
+    "LogisticRegression": {
+      "valid": 1000,
+      "mean": 0.004397498824423778,
+      "ci_low": -0.000641218590569484,
+      "ci_high": 0.010511975199952775,
+      "share_svm_better": 0.956
+    },
+    "RandomForest": {
+      "valid": 1000,
+      "mean": 0.009034744698197521,
+      "ci_low": -0.018575752886445838,
+      "ci_high": 0.038585831184586764,
+      "share_svm_better": 0.724
+    },
+    "NaiveBayes": {
+      "valid": 1000,
+      "mean": 0.06895920441593552,
+      "ci_low": 0.030004637020489125,
+      "ci_high": 0.11424877241145313,
+      "share_svm_better": 1.0
+    }
+  },
+  "note": "Chỉ dùng train (fit) và validation (chấm). Không dùng test. Validation đã dùng chọn ngưỡng của SVM nên đây chỉ là chẩn đoán.",
+  "timing_schema": "v1 historical: fit_seconds includes classifier.fit + scoring + AP; excludes feature preprocessing",
+  "interpretation": "Exploratory pipeline comparison after model lock, not confirmatory evidence."
+}
