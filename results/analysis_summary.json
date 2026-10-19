@@ -1,0 +1,11 @@
+{
+  "cv_fits": 125,
+  "model_search_fits": 120,
+  "ablation_fits": 20,
+  "cv_warning_count": 12,
+  "test_errors": 65,
+  "test_error_interpretation": "Post-hoc description only; no refit or threshold change",
+  "train_size": 10836,
+  "validation_size": 3340,
+  "test_size": 3389
+}
