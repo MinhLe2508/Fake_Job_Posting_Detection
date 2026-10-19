@@ -1,0 +1,37 @@
+{
+  "verified_on": "2026-10-18",
+  "pdf_pages": 29,
+  "docx_pdf_export": "Microsoft Word",
+  "visual_review": "All final pages rendered and visually reviewed",
+  "unit_tests_passed": 17,
+  "executed_notebook_code_cells": 16,
+  "notebook_errors": 0,
+  "new_experiments": {
+    "nested_inner_fits": 144,
+    "nested_outer_fits": 6,
+    "svm_ablation_fits": 25,
+    "calibrator_fits": 1,
+    "fixed_pipeline_benchmark_fits": 5
+  },
+  "original_main_experiment_rerun_this_revision": false,
+  "frozen_hashes_unchanged": {
+    "models/fake_job_detector.joblib": "3592e1ffa4766ddd7755c88b6d1e42f51abb26d216ebccfa03035b30e156093b",
+    "models/lock.json": "e38ded604e4947b88ffbb752489761a1e2a8f8e52542934741f7af3e7f073da9",
+    "results/protocol.json": "b3984cfa66afb697f4c4e2a745b172daadd6a1030db52c415d9bb18a555194ab",
+    "results/selection.json": "9250d186bec6e63b80311078ac412017ccbbe4a539fcdbffa72440f6d6c77b41",
+    "results/test_metrics.json": "dbcc068f7a4b2a9b31bae61222fd44aa62f11d968637d1d29278662bc54310fb",
+    "results/test_predictions.csv": "91537b4b2767cf31d2cbf91418da2e3b61446ef3692ad4965ac35258ba085086",
+    "src/fakejobs/features.py": "29a4706aadce538a711704da5bfb74c956aee23d8d6b86c8a0f1fe9feec7fbbc",
+    "src/fakejobs/experiment.py": "ed0b204c0374815515b6ff523ac6fd56d4667ad118791df395d9de7031c76a20"
+  },
+  "personal_contributions_and_cover_metadata": "Deferred to user as requested; cover has blank school and instructor fields; no invented personal contributions",
+  "remaining_limits": [
+    "nested CV limited to LR/SVM and content groups",
+    "no new external or employer-independent holdout",
+    "calibration is validation diagnostic, not deployed",
+    "cost ratios hypothetical",
+    "one timing repetition",
+    "precision target remains unmet on frozen test"
+  ],
+  "hardware_and_environment": "results/robustness/hardware.json, protocol.json, benchmark.json; historical hardware not reconstructed"
+}

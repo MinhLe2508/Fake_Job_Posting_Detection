@@ -1,0 +1,23 @@
+Nhật ký kiểm thử cập nhật 2026-10-13 (bổ sung cho evidence/unit_tests.log)
+Môi trường: Linux, Python 3.12.3, numpy 2.5.3, pandas 2.3.3, scipy 1.16.3, scikit-learn 1.7.2, joblib 1.6.0 (đúng requirements.txt)
+Lệnh: PYTHONPATH=src python -W ignore -m unittest discover -s tests -v
+Kết quả: 13 kiểm thử đạt (8 của pipeline + 5 của phần mở rộng sau khóa)
+
+test_added_budget_matches_main_protocol (test_extension.ExtensionTests.test_added_budget_matches_main_protocol) ... ok
+test_extension_never_loads_test_split (test_extension.ExtensionTests.test_extension_never_loads_test_split) ... ok
+test_holm_is_monotone_and_capped (test_extension.ExtensionTests.test_holm_is_monotone_and_capped) ... ok
+test_nadeau_bengio_matches_hand_calculation (test_extension.ExtensionTests.test_nadeau_bengio_matches_hand_calculation) ... ok
+test_nadeau_bengio_zero_variance_is_nan (test_extension.ExtensionTests.test_nadeau_bengio_zero_variance_is_nan) ... ok
+test_features_independent_of_labels (test_pipeline.PipelineTests.test_features_independent_of_labels) ... ok
+test_group_disjoint_and_minority_every_fold (test_pipeline.PipelineTests.test_group_disjoint_and_minority_every_fold) ... ok
+test_invalid_input_rejected (test_pipeline.PipelineTests.test_invalid_input_rejected) ... ok
+test_metrics_recomputed_from_frozen_test_predictions (test_pipeline.PipelineTests.test_metrics_recomputed_from_frozen_test_predictions) ... ok
+test_missing_and_unknown_category_supported (test_pipeline.PipelineTests.test_missing_and_unknown_category_supported) ... ok
+test_protocol_and_model_hashes_match_lock (test_pipeline.PipelineTests.test_protocol_and_model_hashes_match_lock) ... ok
+test_serialized_prediction_parity (test_pipeline.PipelineTests.test_serialized_prediction_parity) ... ok
+test_transform_does_not_change_model (test_pipeline.PipelineTests.test_transform_does_not_change_model) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 6.003s
+
+OK

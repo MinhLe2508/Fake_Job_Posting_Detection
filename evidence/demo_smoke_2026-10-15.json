@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-15",
+  "environment": "fresh Python 3.12 virtualenv, requirements.txt + pip install -e . --no-deps",
+  "checks": {
+    "/": true,
+    "/api/health": true,
+    "/api/metrics": true,
+    "/api/examples": true,
+    "prediction_parity": true,
+    "empty_rejected": true
+  },
+  "passed": true
+}
