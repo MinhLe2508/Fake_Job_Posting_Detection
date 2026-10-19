@@ -1,0 +1,20 @@
+Obtaining file:///D:/MinhDangHocCode/DataMining/CK/Nhom7_TrackB_Final_2026-10-14
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: nhom7-fakejobs
+  Building editable for nhom7-fakejobs (pyproject.toml): started
+  Building editable for nhom7-fakejobs (pyproject.toml): finished with status 'done'
+  Created wheel for nhom7-fakejobs: filename=nhom7_fakejobs-1.0.1-0.editable-py3-none-any.whl size=1456 sha256=cac20a0fcd8dd5c818f350cf13179747fcf37291ef6afe14f3f59c2135b7b7f4
+  Stored in directory: D:\MinhDangHocCode\DataMining\CK\review_2026-10-14\tmp\pip-ephem-wheel-cache-jvkxg70f\wheels\48\5f\9a\98560361239c10ff8fb153b20619464cb5f8c16f36641a3784
+Successfully built nhom7-fakejobs
+Installing collected packages: nhom7-fakejobs
+Successfully installed nhom7-fakejobs-1.0.1
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: D:\MinhDangHocCode\DataMining\CK\review_2026-10-14\install_env\Scripts\python.exe -m pip install --upgrade pip

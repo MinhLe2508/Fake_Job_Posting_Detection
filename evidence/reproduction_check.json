@@ -1,0 +1,66 @@
+{
+  "cv_results.csv": {
+    "rows": 125,
+    "numeric_columns_verified": [
+      "fold",
+      "n_features",
+      "AP",
+      "ROC_AUC",
+      "precision",
+      "recall",
+      "F1",
+      "accuracy",
+      "alert_rate",
+      "TN",
+      "FP",
+      "FN",
+      "TP"
+    ],
+    "passed": true,
+    "maximum_absolute_difference": 0.0
+  },
+  "ablation.csv": {
+    "rows": 20,
+    "numeric_columns_verified": [
+      "fold",
+      "AP",
+      "ROC_AUC",
+      "precision",
+      "recall",
+      "F1",
+      "accuracy",
+      "alert_rate",
+      "TN",
+      "FP",
+      "FN",
+      "TP"
+    ],
+    "passed": true,
+    "maximum_absolute_difference": 0.0
+  },
+  "validation_predictions.csv": {
+    "rows": 3340,
+    "numeric_columns_verified": [
+      "job_id",
+      "fraudulent",
+      "score",
+      "predicted"
+    ],
+    "passed": true,
+    "maximum_absolute_difference": 0.0
+  },
+  "test_predictions.csv": {
+    "rows": 3389,
+    "numeric_columns_verified": [
+      "job_id",
+      "fraudulent",
+      "score",
+      "predicted"
+    ],
+    "passed": true,
+    "maximum_absolute_difference": 0.0
+  },
+  "selection_identical": true,
+  "interpretation": "Independent fresh run with same data, protocol and seed; no new model selection using test.",
+  "analysis_change": "Final package expands demo examples to TP/TN/FP/FN; this does not alter training, threshold or predictions."
+}

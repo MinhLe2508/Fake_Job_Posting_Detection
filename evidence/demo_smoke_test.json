@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "health": {
+    "status": "ok",
+    "model": "LinearSVM"
+  },
+  "validation_sample_result": "Chuyển kiểm duyệt thủ công\n\nĐiểm quyết định: 0.8678 | Ngưỡng: -0.3732 | 39.2 ms\n\nĐiểm mô hình không xác minh doanh nghiệp; kết quả không phải kết luận gian lận.",
+  "empty_input_status": 400,
+  "forbidden_target_status": 400,
+  "minimal_input": {
+    "score": -0.6728951352546534,
+    "threshold": -0.37317585243277074,
+    "score_type": "decision_score",
+    "model": "LinearSVM",
+    "flagged": false,
+    "action": "Chưa vượt ngưỡng cảnh báo",
+    "latency_ms": 26.598200027365237,
+    "note": "Điểm mô hình không xác minh doanh nghiệp; kết quả không phải kết luận gian lận."
+  },
+  "javascript_errors": [],
+  "mobile_horizontal_overflow": false
+}

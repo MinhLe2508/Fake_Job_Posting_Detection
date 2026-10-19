@@ -1,0 +1,255 @@
+CV fold 1: preprocessing 17.6s, 15215 features
+LogisticRegression_01 fold=1 AP=0.4386, fit=0.6s
+LogisticRegression_02 fold=1 AP=0.4732, fit=0.8s
+LogisticRegression_03 fold=1 AP=0.6432, fit=1.0s
+LogisticRegression_04 fold=1 AP=0.6800, fit=1.3s
+LogisticRegression_05 fold=1 AP=0.7257, fit=1.6s
+LogisticRegression_06 fold=1 AP=0.7313, fit=1.9s
+LogisticRegression_07 fold=1 AP=0.7354, fit=1.8s
+LogisticRegression_08 fold=1 AP=0.7335, fit=2.2s
+LinearSVM_01 fold=1 AP=0.6894, fit=0.3s
+LinearSVM_02 fold=1 AP=0.6990, fit=1.7s
+LinearSVM_03 fold=1 AP=0.7304, fit=0.6s
+LinearSVM_04 fold=1 AP=0.7319, fit=4.7s
+LinearSVM_05 fold=1 AP=0.7250, fit=2.5s
+LinearSVM_06 fold=1 AP=0.7238, fit=8.7s
+LinearSVM_07 fold=1 AP=0.7223, fit=8.6s
+LinearSVM_08 fold=1 AP=0.7219, fit=7.8s
+RandomForest_01 fold=1 AP=0.6978, fit=6.8s
+RandomForest_02 fold=1 AP=0.6901, fit=6.8s
+RandomForest_03 fold=1 AP=0.7438, fit=21.9s
+RandomForest_04 fold=1 AP=0.7293, fit=16.1s
+RandomForest_05 fold=1 AP=0.6021, fit=8.8s
+RandomForest_06 fold=1 AP=0.6050, fit=7.4s
+RandomForest_07 fold=1 AP=0.7311, fit=12.8s
+RandomForest_08 fold=1 AP=0.6624, fit=8.7s
+Dummy_01 fold=1 AP=0.0489, fit=0.0s
+CV fold 2: preprocessing 18.0s, 15211 features
+LogisticRegression_01 fold=2 AP=0.6735, fit=0.5s
+LogisticRegression_02 fold=2 AP=0.6818, fit=0.9s
+LogisticRegression_03 fold=2 AP=0.8356, fit=1.0s
+LogisticRegression_04 fold=2 AP=0.8567, fit=1.4s
+LogisticRegression_05 fold=2 AP=0.9059, fit=1.6s
+LogisticRegression_06 fold=2 AP=0.9093, fit=1.9s
+LogisticRegression_07 fold=2 AP=0.9155, fit=2.0s
+LogisticRegression_08 fold=2 AP=0.9163, fit=2.1s
+LinearSVM_01 fold=2 AP=0.8740, fit=0.3s
+LinearSVM_02 fold=2 AP=0.8729, fit=1.9s
+LinearSVM_03 fold=2 AP=0.9155, fit=0.8s
+LinearSVM_04 fold=2 AP=0.9173, fit=4.4s
+LinearSVM_05 fold=2 AP=0.9184, fit=3.3s
+LinearSVM_06 fold=2 AP=0.9177, fit=8.0s
+LinearSVM_07 fold=2 AP=0.9185, fit=8.0s
+LinearSVM_08 fold=2 AP=0.9185, fit=8.2s
+RandomForest_01 fold=2 AP=0.8712, fit=6.9s
+RandomForest_02 fold=2 AP=0.8535, fit=6.7s
+RandomForest_03 fold=2 AP=0.8868, fit=19.4s
+RandomForest_04 fold=2 AP=0.8761, fit=14.9s
+RandomForest_05 fold=2 AP=0.7708, fit=8.1s
+RandomForest_06 fold=2 AP=0.7843, fit=6.7s
+RandomForest_07 fold=2 AP=0.8783, fit=10.9s
+RandomForest_08 fold=2 AP=0.8350, fit=5.4s
+Dummy_01 fold=2 AP=0.0489, fit=0.0s
+CV fold 3: preprocessing 11.3s, 15213 features
+LogisticRegression_01 fold=3 AP=0.6468, fit=0.4s
+LogisticRegression_02 fold=3 AP=0.6894, fit=0.6s
+LogisticRegression_03 fold=3 AP=0.8076, fit=0.6s
+LogisticRegression_04 fold=3 AP=0.8257, fit=0.9s
+LogisticRegression_05 fold=3 AP=0.8641, fit=0.9s
+LogisticRegression_06 fold=3 AP=0.8726, fit=1.3s
+LogisticRegression_07 fold=3 AP=0.8774, fit=1.2s
+LogisticRegression_08 fold=3 AP=0.8815, fit=1.3s
+LinearSVM_01 fold=3 AP=0.8382, fit=0.2s
+LinearSVM_02 fold=3 AP=0.8438, fit=0.8s
+LinearSVM_03 fold=3 AP=0.8816, fit=0.6s
+LinearSVM_04 fold=3 AP=0.8829, fit=2.7s
+LinearSVM_05 fold=3 AP=0.8830, fit=1.7s
+LinearSVM_06 fold=3 AP=0.8823, fit=5.3s
+LinearSVM_07 fold=3 AP=0.8817, fit=4.8s
+LinearSVM_08 fold=3 AP=0.8819, fit=4.8s
+RandomForest_01 fold=3 AP=0.8400, fit=3.9s
+RandomForest_02 fold=3 AP=0.8250, fit=3.9s
+RandomForest_03 fold=3 AP=0.8785, fit=11.9s
+RandomForest_04 fold=3 AP=0.8555, fit=9.0s
+RandomForest_05 fold=3 AP=0.6954, fit=4.6s
+RandomForest_06 fold=3 AP=0.7145, fit=3.9s
+RandomForest_07 fold=3 AP=0.8394, fit=6.6s
+RandomForest_08 fold=3 AP=0.8011, fit=7.1s
+Dummy_01 fold=3 AP=0.0489, fit=0.0s
+CV fold 4: preprocessing 19.6s, 15215 features
+LogisticRegression_01 fold=4 AP=0.5655, fit=0.4s
+LogisticRegression_02 fold=4 AP=0.5928, fit=0.6s
+LogisticRegression_03 fold=4 AP=0.7200, fit=0.7s
+LogisticRegression_04 fold=4 AP=0.7348, fit=0.9s
+LogisticRegression_05 fold=4 AP=0.7975, fit=1.2s
+LogisticRegression_06 fold=4 AP=0.8067, fit=1.4s
+LogisticRegression_07 fold=4 AP=0.8237, fit=1.6s
+LogisticRegression_08 fold=4 AP=0.8280, fit=1.6s
+LinearSVM_01 fold=4 AP=0.7992, fit=0.2s
+LinearSVM_02 fold=4 AP=0.7538, fit=0.8s
+LinearSVM_03 fold=4 AP=0.8457, fit=0.5s
+LinearSVM_04 fold=4 AP=0.8322, fit=2.0s
+LinearSVM_05 fold=4 AP=0.8426, fit=1.5s
+LinearSVM_06 fold=4 AP=0.8418, fit=5.9s
+LinearSVM_07 fold=4 AP=0.8412, fit=7.8s
+LinearSVM_08 fold=4 AP=0.8412, fit=8.3s
+RandomForest_01 fold=4 AP=0.8370, fit=6.8s
+RandomForest_02 fold=4 AP=0.8029, fit=6.6s
+RandomForest_03 fold=4 AP=0.8269, fit=20.2s
+RandomForest_04 fold=4 AP=0.8198, fit=15.7s
+RandomForest_05 fold=4 AP=0.6686, fit=8.7s
+RandomForest_06 fold=4 AP=0.6757, fit=7.2s
+RandomForest_07 fold=4 AP=0.7643, fit=12.2s
+RandomForest_08 fold=4 AP=0.7100, fit=8.8s
+Dummy_01 fold=4 AP=0.0489, fit=0.0s
+CV fold 5: preprocessing 16.5s, 15208 features
+LogisticRegression_01 fold=5 AP=0.4915, fit=0.5s
+LogisticRegression_02 fold=5 AP=0.5499, fit=0.8s
+LogisticRegression_03 fold=5 AP=0.6856, fit=1.0s
+LogisticRegression_04 fold=5 AP=0.7014, fit=1.3s
+LogisticRegression_05 fold=5 AP=0.7660, fit=1.5s
+LogisticRegression_06 fold=5 AP=0.7685, fit=1.8s
+LogisticRegression_07 fold=5 AP=0.7784, fit=1.7s
+LogisticRegression_08 fold=5 AP=0.7803, fit=2.0s
+LinearSVM_01 fold=5 AP=0.7303, fit=0.2s
+LinearSVM_02 fold=5 AP=0.7379, fit=1.1s
+LinearSVM_03 fold=5 AP=0.7811, fit=0.7s
+LinearSVM_04 fold=5 AP=0.7806, fit=3.3s
+LinearSVM_05 fold=5 AP=0.7792, fit=2.2s
+LinearSVM_06 fold=5 AP=0.7810, fit=8.2s
+LinearSVM_07 fold=5 AP=0.7773, fit=5.8s
+LinearSVM_08 fold=5 AP=0.7778, fit=5.4s
+RandomForest_01 fold=5 AP=0.7034, fit=4.0s
+RandomForest_02 fold=5 AP=0.6635, fit=3.9s
+RandomForest_03 fold=5 AP=0.7376, fit=18.1s
+RandomForest_04 fold=5 AP=0.7194, fit=15.7s
+RandomForest_05 fold=5 AP=0.6958, fit=8.4s
+RandomForest_06 fold=5 AP=0.6825, fit=6.9s
+RandomForest_07 fold=5 AP=0.7913, fit=11.9s
+RandomForest_08 fold=5 AP=0.7523, fit=8.5s
+Dummy_01 fold=5 AP=0.0489, fit=0.0s
+Ablation text_only fold 1 AP=0.7396
+Ablation text_only fold 2 AP=0.8925
+Ablation text_only fold 3 AP=0.8935
+Ablation text_only fold 4 AP=0.8297
+Ablation text_only fold 5 AP=0.7444
+Ablation metadata_only fold 1 AP=0.4629
+Ablation metadata_only fold 2 AP=0.4970
+Ablation metadata_only fold 3 AP=0.6113
+Ablation metadata_only fold 4 AP=0.5495
+Ablation metadata_only fold 5 AP=0.4077
+Ablation no_logo fold 1 AP=0.7311
+Ablation no_logo fold 2 AP=0.9130
+Ablation no_logo fold 3 AP=0.8855
+Ablation no_logo fold 4 AP=0.8379
+Ablation no_logo fold 5 AP=0.7572
+Ablation no_log fold 1 AP=0.7374
+Ablation no_log fold 2 AP=0.9172
+Ablation no_log fold 3 AP=0.8777
+Ablation no_log fold 4 AP=0.8334
+Ablation no_log fold 5 AP=0.7718
+Model locked: LinearSVM, threshold=-0.373176, validation={'threshold': -0.37317585243277074, 'precision_target': 0.8, 'target_feasible_on_validation': True, 'fit_seconds': 18.64927519997582, 'batch_predict_seconds': 4.085561999992933, 'AP': 0.9035526972463648, 'ROC_AUC': 0.9873146169852945, 'precision': 0.8288770053475936, 'recall': 0.8516483516483516, 'F1': 0.8401084010840109, 'accuracy': 0.9823353293413174, 'alert_rate': 0.05598802395209581, 'TN': 3126, 'FP': 32, 'FN': 27, 'TP': 155}
+FROZEN TEST: {'model': 'LinearSVM', 'threshold': -0.37317585243277074, 'n_samples': 3389, 'n_fake': 144, 'batch_predict_seconds': 3.9928922000108287, 'milliseconds_per_post_batch': 1.1781918560079163, 'AP': 0.8781458710394335, 'ROC_AUC': 0.9867916452662215, 'precision': 0.7453416149068323, 'recall': 0.8333333333333334, 'F1': 0.7868852459016393, 'accuracy': 0.9808203009737385, 'alert_rate': 0.047506639126586016, 'TN': 3204, 'FP': 41, 'FN': 24, 'TP': 120, 'dummy_prior': {'AP': 0.04249041015048687, 'ROC_AUC': 0.5, 'precision': 0.0, 'recall': 0.0, 'F1': 0.0, 'accuracy': 0.9575095898495132, 'alert_rate': 0.0, 'TN': 3245, 'FP': 0, 'FN': 144, 'TP': 0}}
+Analysis figures, cases, slices and demo examples saved.
+test_features_independent_of_labels (test_pipeline.PipelineTests.test_features_independent_of_labels) ... C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+ok
+test_group_disjoint_and_minority_every_fold (test_pipeline.PipelineTests.test_group_disjoint_and_minority_every_fold) ... ok
+test_invalid_input_rejected (test_pipeline.PipelineTests.test_invalid_input_rejected) ... ok
+test_metrics_recomputed_from_frozen_test_predictions (test_pipeline.PipelineTests.test_metrics_recomputed_from_frozen_test_predictions) ... ok
+test_missing_and_unknown_category_supported (test_pipeline.PipelineTests.test_missing_and_unknown_category_supported) ... C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:97: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  frame["salary_range"].replace(r"^\s*$", np.nan, regex=True).isna().astype(float)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+ok
+test_protocol_and_model_hashes_match_lock (test_pipeline.PipelineTests.test_protocol_and_model_hashes_match_lock) ... ok
+test_serialized_prediction_parity (test_pipeline.PipelineTests.test_serialized_prediction_parity) ... C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:97: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  frame["salary_range"].replace(r"^\s*$", np.nan, regex=True).isna().astype(float)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:97: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  frame["salary_range"].replace(r"^\s*$", np.nan, regex=True).isna().astype(float)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:97: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  frame["salary_range"].replace(r"^\s*$", np.nan, regex=True).isna().astype(float)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+ok
+test_transform_does_not_change_model (test_pipeline.PipelineTests.test_transform_does_not_change_model) ... C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:97: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  frame["salary_range"].replace(r"^\s*$", np.nan, regex=True).isna().astype(float)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 4.291s
+
+OK
+Đã tái lập tại C:\Users\Lenovo\Documents\Codex\2026-09-22\b-n-l-m-t-chuy\work\final_reproduction_20261011
