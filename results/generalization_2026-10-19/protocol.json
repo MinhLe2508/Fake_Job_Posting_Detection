@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-19",
+  "code_sha256": "e163069d0843688bfdaf85dd39b112a0f624b0d9eb2a9e9f3db2a4e0952a1033",
+  "seed": 20261019,
+  "profile_folds": 3,
+  "profile_config": "LinearSVM C=1 class_weight=None; fixed, no tuning",
+  "group_rule": "connected components of content_group OR nonempty normalized company_profile; train only",
+  "benchmark_repetitions": 5,
+  "benchmark_configs": "historical fixed best per family in results/extension/stats_cv.json",
+  "selection": "none; post-lock diagnostic only",
+  "frozen_hashes": {
+    "models/fake_job_detector.joblib": "3592e1ffa4766ddd7755c88b6d1e42f51abb26d216ebccfa03035b30e156093b",
+    "models/lock.json": "e38ded604e4947b88ffbb752489761a1e2a8f8e52542934741f7af3e7f073da9",
+    "results/protocol.json": "b3984cfa66afb697f4c4e2a745b172daadd6a1030db52c415d9bb18a555194ab",
+    "results/selection.json": "9250d186bec6e63b80311078ac412017ccbbe4a539fcdbffa72440f6d6c77b41",
+    "results/test_metrics.json": "dbcc068f7a4b2a9b31bae61222fd44aa62f11d968637d1d29278662bc54310fb",
+    "results/test_predictions.csv": "91537b4b2767cf31d2cbf91418da2e3b61446ef3692ad4965ac35258ba085086"
+  },
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "threadpoolctl": "3.7.0"
+  }
+}

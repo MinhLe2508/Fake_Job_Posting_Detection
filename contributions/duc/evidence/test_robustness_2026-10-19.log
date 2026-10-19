@@ -1,0 +1,8 @@
+test_preserves_nonconsecutive_training_indices (test_robustness.RobustnessTests.test_preserves_nonconsecutive_training_indices) ... ok
+test_rejects_fold_without_positive_class (test_robustness.RobustnessTests.test_rejects_fold_without_positive_class) ... ok
+test_rejects_group_overlap_even_when_both_classes_present (test_robustness.RobustnessTests.test_rejects_group_overlap_even_when_both_classes_present) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+OK

@@ -1,0 +1,6 @@
+{
+  "repetitions": 5,
+  "seed_order": 20261019,
+  "shared_preprocessing_seconds": 29.634440999943763,
+  "note": "same matrices, process and machine; newly instantiated estimator each repetition; no warmup excluded; randomized order; no preprocessing/disk/network in timed fit or prediction; repetitions assess runtime, not independent statistical accuracy samples; RF n_jobs=2, native threads=1"
+}
