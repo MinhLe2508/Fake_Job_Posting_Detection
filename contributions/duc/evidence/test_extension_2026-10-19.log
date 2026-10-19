@@ -1,0 +1,12 @@
+test_added_budget_matches_main_protocol (test_extension.ExtensionTests.test_added_budget_matches_main_protocol) ... ok
+test_extension_never_loads_test_split (test_extension.ExtensionTests.test_extension_never_loads_test_split) ... ok
+test_holm_is_monotone_and_capped (test_extension.ExtensionTests.test_holm_is_monotone_and_capped) ... ok
+test_nadeau_bengio_matches_hand_calculation (test_extension.ExtensionTests.test_nadeau_bengio_matches_hand_calculation) ... ok
+test_nadeau_bengio_zero_variance_is_nan (test_extension.ExtensionTests.test_nadeau_bengio_zero_variance_is_nan) ... ok
+test_validation_timing_excludes_prediction (test_extension.ExtensionTests.test_validation_timing_excludes_prediction) ... LinearSVM LinearSVM_03 {'config_id': 'LinearSVM_03', 'AP_validation': 1.0, 'fit_seconds': 2.0, 'predict_seconds': 3.0}
+ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.051s
+
+OK

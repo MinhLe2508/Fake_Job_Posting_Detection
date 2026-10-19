@@ -1,0 +1,9 @@
+PASS: 12 package SHA256 hashes, source code hash and 6 frozen artifact hashes.
+PASS: 10836 train rows, 530 fake rows, 3256 connected groups; complete matching manifest/predictions.
+PASS: stored 3 folds have no content/profile/group overlap; class counts and AP recomputed.
+AP mean=0.650057411825; sample std=0.177262384078
+PASS: 25 benchmark rows, fixed historical configurations, 5 repetitions/model; summary quantiles verified.
+No retraining or runtime benchmark rerun. Original timing and hardware metadata retained.
+Local Python: 3.14.7 scikit-learn: 1.9.0
+Limitation: current environment differs from recorded Python 3.12.14/sklearn 1.7.2. Reconstructed folds differ; validated stored fold partition instead. Exact rerun remains unverified.
+Main currently lacks Nhan contribution. Automated checks do not replace cross-review by Binh/Minh.

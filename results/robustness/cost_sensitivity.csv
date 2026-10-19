@@ -1,0 +1,6 @@
+FN_over_FP_cost,locked_model_cost,all_real_cost,all_flagged_cost,alerts,review_minutes_at_2min_each
+1,65,144,3245,161,322
+5,161,720,3245,161,322
+10,281,1440,3245,161,322
+20,521,2880,3245,161,322
+50,1241,7200,3245,161,322

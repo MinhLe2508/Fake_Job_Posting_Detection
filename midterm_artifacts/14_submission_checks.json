@@ -1,0 +1,44 @@
+{
+  "notebook_executed_without_errors": true,
+  "python_ast_matches_notebook": true,
+  "raw_data_unchanged": true,
+  "holdout_preserved": true,
+  "cv_independently_verified": [
+    {
+      "fold": 1,
+      "real": 2062,
+      "fake": 106
+    },
+    {
+      "fold": 2,
+      "real": 2061,
+      "fake": 106
+    },
+    {
+      "fold": 3,
+      "real": 2061,
+      "fake": 106
+    },
+    {
+      "fold": 4,
+      "real": 2061,
+      "fake": 106
+    },
+    {
+      "fold": 5,
+      "real": 2061,
+      "fake": 106
+    }
+  ],
+  "report_pages": 18,
+  "cover_pages_preserved": 5,
+  "slide_count": 10,
+  "script_pages": 5,
+  "models_trained": false,
+  "planned_hours_per_member": {
+    "Lê Bá Khánh Bình": 30,
+    "Nguyễn Minh Đức": 30,
+    "Lê Nhật Minh": 30,
+    "Chu Đức Thành Nhân": 30
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "AP_mean": 0.6500574118249693,
+  "AP_std": 0.17726238407755732,
+  "train_rows": 10836,
+  "fake_rows": 530,
+  "groups": 3256,
+  "largest_group": 589,
+  "missing_profile_rows": 1987,
+  "fixed_config": {
+    "C": 1,
+    "class_weight": null
+  },
+  "scope": "train-only post-lock diagnostic; configuration previously chosen on train CV, not nested or unbiased external evaluation; exact profile is not employer ID; no threshold selection"
+}

@@ -1,0 +1,19 @@
+﻿field,type,meaning,processing
+job_id,Định danh,Mã tin đăng,Loại khỏi đặc trưng
+title,Văn bản,Tiêu đề,"TF-IDF, số từ, cờ thiếu"
+location,Phân loại dạng chuỗi,Địa điểm,"Lấy quốc gia, mode và one-hot"
+department,Phân loại,Bộ phận,Mode và one-hot
+salary_range,Chuỗi khoảng,"Khoảng lương, thiếu chuẩn đơn vị/kỳ",Chỉ cờ thiếu
+company_profile,Văn bản,Giới thiệu công ty,"TF-IDF, số từ, cờ thiếu"
+description,Văn bản,Mô tả công việc,"TF-IDF, số từ, cờ thiếu"
+requirements,Văn bản,Yêu cầu ứng viên,"TF-IDF, số từ, cờ thiếu"
+benefits,Văn bản,Phúc lợi,"TF-IDF, số từ, cờ thiếu"
+telecommuting,Nhị phân,Cờ làm việc từ xa,"Giữ 0/1, mode nếu thiếu"
+has_company_logo,Nhị phân,Cờ có logo,"Giữ 0/1, không xác minh logo"
+has_questions,Nhị phân,Cờ có câu hỏi sàng lọc,Giữ 0/1
+employment_type,Phân loại,Loại hình việc làm,Mode và one-hot
+required_experience,Phân loại,Kinh nghiệm yêu cầu,Mode và one-hot
+required_education,Phân loại,Học vấn yêu cầu,Mode và one-hot
+industry,Phân loại,Ngành,Mode và one-hot
+function,Phân loại,Chức năng công việc,Mode và one-hot
+fraudulent,Nhãn nhị phân,"0 hợp lệ, 1 giả theo nguồn","Chỉ làm y, không đưa vào X"
