@@ -1,0 +1,17 @@
+﻿,dtype,missing_count,missing_pct,unique_non_missing
+salary_range,object,9089,83.87781469176818,660
+department,object,6961,64.23957179771133,943
+required_education,object,4808,44.37061646363972,13
+required_experience,object,4291,39.599483204134366,7
+benefits,object,4248,39.202657807308974,4072
+function,object,3929,36.25876707272056,37
+industry,object,2931,27.048726467331118,129
+employment_type,object,2103,19.40753045404208,5
+company_profile,object,1987,18.337024732373568,1452
+requirements,object,1560,14.396456256921372,7463
+location,object,183,1.6888150609080843,2310
+description,object,1,0.009228497600590623,9096
+title,object,0,0.0,7055
+has_questions,float64,0,0.0,2
+telecommuting,float64,0,0.0,2
+has_company_logo,float64,0,0.0,2
