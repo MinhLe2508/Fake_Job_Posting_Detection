@@ -1,0 +1,18 @@
+{
+  "threshold": -0.37317585243277074,
+  "precision_target": 0.8,
+  "target_feasible_on_validation": true,
+  "fit_seconds": 18.33116489998065,
+  "batch_predict_seconds": 4.240699200017843,
+  "AP": 0.9035526972463648,
+  "ROC_AUC": 0.9873146169852945,
+  "precision": 0.8288770053475936,
+  "recall": 0.8516483516483516,
+  "F1": 0.8401084010840109,
+  "accuracy": 0.9823353293413174,
+  "alert_rate": 0.05598802395209581,
+  "TN": 3126,
+  "FP": 32,
+  "FN": 27,
+  "TP": 155
+}

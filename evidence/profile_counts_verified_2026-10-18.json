@@ -1,0 +1,28 @@
+{
+  "verified": true,
+  "source": "recomputed by scripts/company_profile_slices.py",
+  "missing_n": 654,
+  "unseen_nonempty_n": 187,
+  "unseen_fake": 11,
+  "unseen_metrics": {
+    "split": "test",
+    "slice": "profile_chua_thay",
+    "n": 187,
+    "fake": 11,
+    "fake_rate": 0.0588,
+    "TP": 9,
+    "FP": 5,
+    "FN": 2,
+    "recall": 0.8182,
+    "recall_wilson_low": 0.523,
+    "recall_wilson_high": 0.9486,
+    "recall_boot_low": 0.2438,
+    "recall_boot_high": 1.0,
+    "precision": 0.6429,
+    "precision_boot_low": 0.1111,
+    "precision_boot_high": 0.9058,
+    "lookup_TP": 0,
+    "lookup_FP": 0,
+    "lookup_FN": 11
+  }
+}
