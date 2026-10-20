@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-20",
+  "source_sha256": {
+    "results/generalization_2026-10-19/profile_predictions.csv": "70983917d53b360a35043508d31ac5b31908d6e7151df31af10ac4e14d51a93d",
+    "results/generalization_2026-10-19/profile_group_manifest.csv": "2d5921a66bdb14686cf7f471481ddd1b15cf8aba6a55accac4fa6c823e567656",
+    "results/generalization_2026-10-19/profile_folds.csv": "007ea9a3ca7784516cd1e91ad46f86dcbfcad2c956512ab408fda1821d6ea70e",
+    "data/fake_job_postings.csv": "59253295129d8b6a27607f9904f7d4ddf4dbb0ee35e079c7eb51b58b5e62bf60",
+    "models/fake_job_detector.joblib": "3592e1ffa4766ddd7755c88b6d1e42f51abb26d216ebccfa03035b30e156093b",
+    "models/lock.json": "e38ded604e4947b88ffbb752489761a1e2a8f8e52542934741f7af3e7f073da9",
+    "results/test_metrics.json": "dbcc068f7a4b2a9b31bae61222fd44aa62f11d968637d1d29278662bc54310fb",
+    "results/test_predictions.csv": "91537b4b2767cf31d2cbf91418da2e3b61446ef3692ad4965ac35258ba085086"
+  },
+  "script_sha256": "3c2c8b56b38e6d8b268a9ca5892f953620cd2d2f387879e6398c587fddf3390e",
+  "scope": "Post-hoc descriptive decomposition of fixed train OOF predictions; no fitting, no split or threshold selection; no causal attribution",
+  "group_size_bins": [
+    "1",
+    "2-9",
+    ">=10"
+  ],
+  "tie_rule": "score >=; AP contribution uses precision at score endpoint",
+  "negative_pair_rule": "number of negative-positive pairs with negative score >= positive score; not FP at a deployment threshold",
+  "selected_examples": "top 3 fake-count groups and top 2 size groups per fold; ties by group ID ascending"
+}
