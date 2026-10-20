@@ -67,6 +67,21 @@ def audit(root=ROOT):
     if hashlib.sha256((root/'scripts/benchmark_extension.py').read_bytes()).hexdigest()!=benchmark['source_sha256']:issues.append('Benchmark source differs from executed run')
     for path,expected in protocol['frozen_hashes'].items():
         if hashlib.sha256((root/path).read_bytes()).hexdigest()!=expected:issues.append('Frozen experiment changed during robustness: '+path)
+    gg=root/'results/generalization_2026-10-19'
+    protocol_new=json.loads((gg/'protocol.json').read_text(encoding='utf-8'))
+    if hashlib.sha256((root/'scripts/audit_generalization.py').read_bytes()).hexdigest()!=protocol_new['code_sha256']:issues.append('Generalization source mismatch')
+    for path,expected in protocol_new['frozen_hashes'].items():
+        if hashlib.sha256((root/path).read_bytes()).hexdigest()!=expected:issues.append('Frozen file changed: '+path)
+    with (gg/'profile_folds.csv').open(encoding='utf-8',newline='') as f: folds=list(csv.DictReader(f))
+    if len(folds)!=3 or any(int(r[k]) for r in folds for k in ['group_overlap','content_overlap','profile_overlap_nonempty']):issues.append('Profile fold leakage or missing folds')
+    if any(not 0<int(r['eval_fake'])<int(r['eval_n']) or not 0<int(r['fit_fake'])<int(r['fit_n']) for r in folds):issues.append('Profile fold missing class')
+    with (gg/'profile_predictions.csv').open(encoding='utf-8',newline='') as f: ids=[r['job_id'] for r in csv.DictReader(f)]
+    if len(ids)!=len(set(ids)) or set(ids)!=train_ids:issues.append('Profile predictions must cover train only exactly once')
+    with (gg/'benchmark_repetitions.csv').open(encoding='utf-8',newline='') as f: reps=list(csv.DictReader(f))
+    expected={(str(i),m) for i in range(1,6) for m in ['LinearSVM','LogisticRegression','RandomForest','NaiveBayes','HistGradientBoosting']}
+    if len(reps)!=25 or {(r['repeat'],r['model']) for r in reps}!=expected:issues.append('Incomplete repeated benchmark')
+    comp=json.loads((gg/'completion.json').read_text())
+    if not comp['complete'] or not comp['frozen_hashes_unchanged']:issues.append('Generalization run not complete')
     return issues
 
 if __name__=='__main__':

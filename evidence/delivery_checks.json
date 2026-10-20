@@ -1,17 +1,14 @@
 {
-  "verified_on": "2026-10-18",
+  "verified_on": "2026-10-19",
   "pdf_pages": 29,
   "docx_pdf_export": "Microsoft Word",
   "visual_review": "All final pages rendered and visually reviewed",
-  "unit_tests_passed": 17,
-  "executed_notebook_code_cells": 16,
+  "unit_tests_passed": 20,
+  "executed_notebook_code_cells": 17,
   "notebook_errors": 0,
   "new_experiments": {
-    "nested_inner_fits": 144,
-    "nested_outer_fits": 6,
-    "svm_ablation_fits": 25,
-    "calibrator_fits": 1,
-    "fixed_pipeline_benchmark_fits": 5
+    "fixed_SVM_profile_group_fits": 3,
+    "benchmark_fits": 25
   },
   "original_main_experiment_rerun_this_revision": false,
   "frozen_hashes_unchanged": {
@@ -22,16 +19,16 @@
     "results/test_metrics.json": "dbcc068f7a4b2a9b31bae61222fd44aa62f11d968637d1d29278662bc54310fb",
     "results/test_predictions.csv": "91537b4b2767cf31d2cbf91418da2e3b61446ef3692ad4965ac35258ba085086",
     "src/fakejobs/features.py": "29a4706aadce538a711704da5bfb74c956aee23d8d6b86c8a0f1fe9feec7fbbc",
-    "src/fakejobs/experiment.py": "ed0b204c0374815515b6ff523ac6fd56d4667ad118791df395d9de7031c76a20"
+    "src/fakejobs/experiment.py": "ed0b204c0374815515b6ff523ac6fd56d4667ad118791df395d9de7031c76a20",
+    "CONTRIBUTIONS.md": "8d9446136d6d1ed2cc5307457899752dd4a1738ba5cc91d42bb2139a7202b790"
   },
-  "personal_contributions_and_cover_metadata": "Deferred to user as requested; cover has blank school and instructor fields; no invented personal contributions",
   "remaining_limits": [
-    "nested CV limited to LR/SVM and content groups",
-    "no new external or employer-independent holdout",
-    "calibration is validation diagnostic, not deployed",
-    "cost ratios hypothetical",
-    "one timing repetition",
-    "precision target remains unmet on frozen test"
+    "personal contributions and school/instructor deferred to user",
+    "no employer ID or external holdout",
+    "profile check fixed SVM, not nested; C previously selected",
+    "nested only LR/SVM",
+    "benchmark same machine/matrices",
+    "test precision target unmet"
   ],
-  "hardware_and_environment": "results/robustness/hardware.json, protocol.json, benchmark.json; historical hardware not reconstructed"
+  "generalization_verified": "evidence/generalization_verified_2026-10-19.json"
 }

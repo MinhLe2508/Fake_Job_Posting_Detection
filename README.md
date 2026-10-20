@@ -117,3 +117,20 @@ Dùng đúng interpreter virtualenv theo hướng dẫn đầu README. Chạy be
 Nested CV gồm 3 outer × 3 inner, tám cấu hình/họ cho LR và SVM (144 inner fit + 6 outer fit). Nó không bao phủ RF/NB/GB hoặc chia theo doanh nghiệp. SVM ablation gồm 25 fit, giữ cấu hình C=1, class_weight=None. Calibration học logistic sigmoid từ OOF train, chấm validation; không thay mô hình triển khai. Chi phí là kịch bản FP/FN giả định từ confusion matrix đã khóa, không chọn ngưỡng theo test. Phần cứng và môi trường lượt mới được ghi riêng; không gán cho thí nghiệm lịch sử.
 
 Báo cáo mục 5.10–5.12 và notebook trình bày kết quả thực. `HUONG_DAN_GIAI_TRINH.md` hỗ trợ tự kiểm tra kiến thức; không thay nhật ký đóng góp. Theo yêu cầu nhóm, tên trường, giảng viên và xác nhận đóng góp cá nhân được nhóm bổ sung sau.
+
+## Bổ sung ngày 19/10: nhóm profile và benchmark lặp
+
+`results/generalization_2026-10-19/` chứa chẩn đoán 3 fold chỉ trên train và benchmark 5 lượt mỗi pipeline. `scripts/audit_generalization.py` nối nhóm nội dung hoặc profile không rỗng (kể cả bắc cầu), kiểm tra không giao nhóm, fit preprocessing riêng mỗi fold. SVM cố định C=1/weight=None đã được chọn trước, không tuning lại. Đây là kiểm tra độ bền sau khóa; không phải nested theo doanh nghiệp hoặc test ngoài nguồn.
+
+Để tái lập, sao chép dự án sang thư mục thí nghiệm riêng, chuyển thư mục `results/generalization_2026-10-19` hiện có ra ngoài bản sao bằng trình quản lý file, rồi chạy từ gốc bản sao trong môi trường đã cài requirements:
+
+```powershell
+python scripts/audit_generalization.py
+```
+
+Script từ chối ghi đè thư mục kết quả đã có, không resume. Chạy riêng, tránh thí nghiệm khác dùng CPU đồng thời. Nó ghi protocol trước fit, dự đoán OOF, manifest nhóm, 25 lượt benchmark, thông tin máy và completion; giữ hash mô hình/ngưỡng/kết quả test. Nếu chạy lỗi, lưu thư mục chưa hoàn thành để chẩn đoán, rồi bắt đầu ở bản sao sạch. Benchmark dùng cùng ma trận đã chuẩn bị; fit và prediction đo riêng, preprocessing đo một lượt riêng, không phải benchmark toàn pipeline end-to-end.
+
+Ba kiểm thử mới kiểm tra nối bắc cầu, profile thiếu và chuẩn hóa profile. Nhật ký ngày 19/10 là kết quả chạy hỗ trợ bởi Codex; không gán thành đóng góp cá nhân.
+
+
+Kiểm tra số liệu bổ sung mà không huấn luyện lại: python scripts/verify_generalization.py. Lệnh này đối chiếu từng nhãn/dự đoán train, AP từng fold, nhóm nối bắc cầu và các phân vị thời gian với dữ liệu gốc đã lưu.

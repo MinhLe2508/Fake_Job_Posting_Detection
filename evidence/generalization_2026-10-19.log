@@ -1,0 +1,32 @@
+profile {'split': 'profile_outer_1', 'fit_n': 7007, 'eval_n': 3829, 'fit_fake': 315, 'eval_fake': 215, 'group_overlap': 0, 'fold': 1, 'AP': 0.7361337334973683, 'profile_overlap_nonempty': 0, 'content_overlap': 0, 'eval_missing_profile': 681, 'preprocess_seconds': 11.573848899977747, 'fit_seconds': 0.369536199956201, 'warnings': ''}
+profile {'split': 'profile_outer_2', 'fit_n': 8122, 'eval_n': 2714, 'fit_fake': 385, 'eval_fake': 145, 'group_overlap': 0, 'fold': 2, 'AP': 0.7678455639614041, 'profile_overlap_nonempty': 0, 'content_overlap': 0, 'eval_missing_profile': 659, 'preprocess_seconds': 11.230250599968713, 'fit_seconds': 0.42861820000689477, 'warnings': ''}
+profile {'split': 'profile_outer_3', 'fit_n': 6543, 'eval_n': 4293, 'fit_fake': 360, 'eval_fake': 170, 'group_overlap': 0, 'fold': 3, 'AP': 0.4461929380161355, 'profile_overlap_nonempty': 0, 'content_overlap': 0, 'eval_missing_profile': 647, 'preprocess_seconds': 10.565298600005917, 'fit_seconds': 0.37665069999638945, 'warnings': ''}
+D:\MinhDangHocCode\DataMining\CK\review_2026-10-14\install_env\Lib\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [0] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+D:\MinhDangHocCode\DataMining\CK\review_2026-10-14\install_env\Lib\site-packages\sklearn\feature_selection\_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+benchmark 1 RandomForest 15.613
+benchmark 1 LogisticRegression 1.905
+benchmark 1 NaiveBayes 0.014
+benchmark 1 HistGradientBoosting 65.507
+benchmark 1 LinearSVM 0.601
+benchmark 2 LinearSVM 0.72
+benchmark 2 NaiveBayes 0.018
+benchmark 2 HistGradientBoosting 64.391
+benchmark 2 LogisticRegression 1.924
+benchmark 2 RandomForest 16.004
+benchmark 3 HistGradientBoosting 64.179
+benchmark 3 LogisticRegression 1.958
+benchmark 3 NaiveBayes 0.016
+benchmark 3 RandomForest 21.14
+benchmark 3 LinearSVM 0.835
+benchmark 4 LinearSVM 0.844
+benchmark 4 HistGradientBoosting 90.208
+benchmark 4 NaiveBayes 0.022
+benchmark 4 LogisticRegression 2.648
+benchmark 4 RandomForest 25.921
+benchmark 5 RandomForest 26.479
+benchmark 5 NaiveBayes 0.024
+benchmark 5 LogisticRegression 2.702
+benchmark 5 LinearSVM 1.07
+benchmark 5 HistGradientBoosting 89.545
