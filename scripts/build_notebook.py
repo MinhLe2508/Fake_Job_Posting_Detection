@@ -116,6 +116,14 @@ display(pd.read_csv(ROOT/'results/robustness/calibration_bins.csv'))
 display(pd.read_csv(ROOT/'results/robustness/cost_sensitivity.csv'))
 display(pd.DataFrame(load_json(ROOT/'results/robustness/benchmark.json')['rows']))
 display(load_json(ROOT/'results/robustness/protocol.json'))''')
+md('''### 5.13 Kiểm tra nhóm profile và benchmark lặp ngày 19/10
+Train-only, SVM C=1 cố định đã chọn trước; nhóm liên thông từ nội dung hoặc profile không rỗng. Đây là kiểm tra độ bền sau khóa, chưa phải nested doanh nghiệp hay đánh giá ngoài nguồn. Benchmark 5 lượt mỗi pipeline phản ánh biến động thời gian trên cùng máy, không phải 5 mẫu chất lượng độc lập.''')
+code('''extra = ROOT/'results/generalization_2026-10-19'
+display(load_json(extra/'profile_summary.json'))
+display(pd.read_csv(extra/'profile_folds.csv'))
+display(pd.read_csv(extra/'benchmark_summary.csv'))
+display(load_json(extra/'benchmark_scope.json'))
+display(load_json(extra/'completion.json'))''')
 md('''## 6. Deployment và kiểm thử
 Demo chạy bằng `python demo/app.py`. Dữ liệu nhập chỉ ở bộ nhớ, không tự huấn luyện. Mẫu bên dưới thuộc validation đã dùng chọn ngưỡng, không phải đánh giá độc lập mới.''')
 code('''from fakejobs.inference import Detector

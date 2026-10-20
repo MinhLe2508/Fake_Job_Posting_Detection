@@ -1,0 +1,114 @@
+test_added_budget_matches_main_protocol (test_extension.ExtensionTests.test_added_budget_matches_main_protocol) ... ok
+test_extension_never_loads_test_split (test_extension.ExtensionTests.test_extension_never_loads_test_split) ... ok
+test_holm_is_monotone_and_capped (test_extension.ExtensionTests.test_holm_is_monotone_and_capped) ... ok
+test_nadeau_bengio_matches_hand_calculation (test_extension.ExtensionTests.test_nadeau_bengio_matches_hand_calculation) ... ok
+test_nadeau_bengio_zero_variance_is_nan (test_extension.ExtensionTests.test_nadeau_bengio_zero_variance_is_nan) ... ok
+LinearSVM LinearSVM_03 {'config_id': 'LinearSVM_03', 'AP_validation': 1.0, 'fit_seconds': 2.0, 'predict_seconds': 3.0}
+test_validation_timing_excludes_prediction (test_extension.ExtensionTests.test_validation_timing_excludes_prediction) ... ok
+test_features_independent_of_labels (test_pipeline.PipelineTests.test_features_independent_of_labels) ... D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+ok
+test_group_disjoint_and_minority_every_fold (test_pipeline.PipelineTests.test_group_disjoint_and_minority_every_fold) ... ok
+test_invalid_input_rejected (test_pipeline.PipelineTests.test_invalid_input_rejected) ... ok
+test_metrics_recomputed_from_frozen_test_predictions (test_pipeline.PipelineTests.test_metrics_recomputed_from_frozen_test_predictions) ... ok
+test_missing_and_unknown_category_supported (test_pipeline.PipelineTests.test_missing_and_unknown_category_supported) ... D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:97: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  frame["salary_range"].replace(r"^\s*$", np.nan, regex=True).isna().astype(float)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+ok
+test_protocol_and_model_hashes_match_lock (test_pipeline.PipelineTests.test_protocol_and_model_hashes_match_lock) ... ok
+test_serialized_prediction_parity (test_pipeline.PipelineTests.test_serialized_prediction_parity) ... D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:97: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  frame["salary_range"].replace(r"^\s*$", np.nan, regex=True).isna().astype(float)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:97: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  frame["salary_range"].replace(r"^\s*$", np.nan, regex=True).isna().astype(float)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:97: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  frame["salary_range"].replace(r"^\s*$", np.nan, regex=True).isna().astype(float)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+ok
+test_transform_does_not_change_model (test_pipeline.PipelineTests.test_transform_does_not_change_model) ... D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:83: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = frame[col].replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:97: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  frame["salary_range"].replace(r"^\s*$", np.nan, regex=True).isna().astype(float)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+D:\MinhDangHocCode\DataMining\CK\Nhom7_TrackB_Final_2026-10-19\src\fakejobs\features.py:101: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  result[col] = source.str.strip().replace(r"^\s*$", np.nan, regex=True)
+ok
+test_missing_profiles_do_not_merge_unrelated_content (test_profile_groups.ProfileGroupsTest.test_missing_profiles_do_not_merge_unrelated_content) ... ok
+test_normalization_and_disjoint_profiles (test_profile_groups.ProfileGroupsTest.test_normalization_and_disjoint_profiles) ... ok
+test_transitive_content_or_profile (test_profile_groups.ProfileGroupsTest.test_transitive_content_or_profile) ... ok
+test_preserves_nonconsecutive_training_indices (test_robustness.RobustnessTests.test_preserves_nonconsecutive_training_indices) ... ok
+test_rejects_fold_without_positive_class (test_robustness.RobustnessTests.test_rejects_fold_without_positive_class) ... ok
+test_rejects_group_overlap_even_when_both_classes_present (test_robustness.RobustnessTests.test_rejects_group_overlap_even_when_both_classes_present) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 8.651s
+
+OK
