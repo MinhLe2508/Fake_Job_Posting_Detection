@@ -36,3 +36,10 @@ SVM cố định được fit trên 3 fold của train, với thành phần liê
 
 Benchmark mới lặp 5 lần mỗi pipeline, báo cáo median/Q1/Q3 trong `benchmark_summary.csv`. Các lượt cùng máy/ma trận, không chứng minh tốc độ trên máy khác hay SLA API.
 
+
+## Thành phần fold và cách dùng số đo
+
+Phân tích ngày 20/10 giữ nguyên mọi dự đoán: fold 3 có tỷ lệ giả 3,96%, ROC-AUC 0,864 và trung vị 237 tin thật đứng trước/bằng điểm một tin giả. Hai nhóm chứa 41 và 11 tin giả chiếm 30,59% tin giả của fold, có thứ hạng trung vị 559 và 1.170. Đây là giải thích mô tả, không cô lập nguyên nhân. Xem PHAN_TICH_FOLD_PROFILE.md.
+
+Test AP 0,878 mô tả pipeline đã khóa trên test nội bộ theo nội dung; profile CV 0,650 mô tả độ nhạy của cấu hình cố định trên ba fold train khác. Cả hai chưa đủ xác nhận hiệu năng trên doanh nghiệp mới hoặc ngoài nguồn. Không sửa ngưỡng hoặc thay số test bằng kết quả hậu kiểm.
+

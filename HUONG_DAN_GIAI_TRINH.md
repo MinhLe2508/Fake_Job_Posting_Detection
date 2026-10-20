@@ -64,3 +64,12 @@ Chỉ nhóm theo profile có thể để nội dung trùng qua fold; chỉ nhóm
 
 Không. Cùng dữ liệu, seed và cấu hình nên đây là lặp phép đo thời gian. Báo cáo trung vị và Q1–Q3 của fit và chấm validation; thứ tự mô hình đổi theo seed cố định. Các lượt cùng máy/tiến trình, không thay phép thử tải API hay đánh giá trên nhiều máy. Không dùng độ lệch thời gian để kiểm định chất lượng dự đoán.
 
+
+## 13 Vì sao fold 3 thấp hơn nhiều
+
+Fold 3 có tỷ lệ giả 3,96%, thấp hơn fold 2 là 5,34%, nhưng không chỉ có khác biệt tỷ lệ lớp: ROC-AUC cũng giảm từ 0,944 xuống 0,864 và trung vị số tin thật đứng trước/bằng điểm tin giả tăng từ 6 lên 237. Hai nhóm 3389 và 2901 chứa 52/170 tin giả, có thứ hạng trung vị 559 và 1.170. Nhóm lớn nhất 589 tin ở fold 3 toàn tin thật, không được tự quy là thủ phạm. Các thống kê này mô tả cấu trúc lỗi, chưa xác định nguyên nhân nhân quả. Xem PHAN_TICH_FOLD_PROFILE.md và chạy verify_fold_diagnostics.py.
+
+## 14 Nên tin AP 0,878 hay 0,650
+
+Cả hai đúng trong thiết kế của mình. AP 0,878 là kết quả test của pipeline đã khóa trên bộ dữ liệu hiện có, không bị chỉnh sửa. AP 0,650 là trung bình ba fold train tách nội dung/profile, fit lại SVM cố định; đây là chẩn đoán độ bền sau khóa. Hai số không cùng tập đánh giá, kích thước fit hay đối tượng ước lượng. Không dùng 0,878 để cam kết hiệu năng với doanh nghiệp mới; cũng không thay test bằng 0,650. Cần dữ liệu doanh nghiệp được xác minh và đánh giá ngoài nguồn cho quyết định đó.
+
