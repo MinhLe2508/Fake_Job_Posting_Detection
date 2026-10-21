@@ -1,0 +1,62 @@
+[
+  {
+    "job_id": 4812,
+    "error_type": "FN",
+    "actual": 1,
+    "predicted": 0,
+    "score": -1.4395649224138278,
+    "title": "Sir Awesome",
+    "has_company_logo": 0,
+    "description_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet ultricies tellus tincidunt semper. Nulla facilisi. Aliquam mollis quam ipsum, sit amet tempus nibh imperdiet et. Donec sodales lobortis ante, a tempus enim lobortis a. Nunc sed consequat lacus, at aliquam lacus. Nunc vel felis sed ligula ultricies consequat. Pellentesque placerat eu enim nec mattis. Etiam vitae elementum purus, sit amet pharetra massa. Suspendisse eu tortor po"
+  },
+  {
+    "job_id": 5363,
+    "error_type": "FN",
+    "actual": 1,
+    "predicted": 0,
+    "score": -1.1550587854189387,
+    "title": "Licensed Life Insurance Agent",
+    "has_company_logo": 1,
+    "description_excerpt": "We need someone who is smart, funny, great with people, wants to make a difference and also make great money...is that you?  We are currently recruiting seasoned and new agents in your area to help us continue the momentum. The insurance industry is stable and our company is growing. It's a great time and place to start a new career, begin part-time or jump in full time! Let us show you how this is NOT a typical insurance sales opportunity. 75K+ "
+  },
+  {
+    "job_id": 17654,
+    "error_type": "FN",
+    "actual": 1,
+    "predicted": 0,
+    "score": -1.0855932030019837,
+    "title": "Senior JavaScript Developer",
+    "has_company_logo": 1,
+    "description_excerpt": "RideAmigos is hiring a senior level JavaScript developer to work with us on our \"cloud-based\" software as a service offering. We are a rapidly growing company working on innovation in the transportation space. In short, we do cool things.This position is on-site with flexible hours. You will be working on our platform, applying your skills and experience to every aspect of our product. Everything from tooling, server-side development, mobile deve"
+  },
+  {
+    "job_id": 1768,
+    "error_type": "FP",
+    "actual": 0,
+    "predicted": 1,
+    "score": 0.4493059442900529,
+    "title": "Accounting/Data entry",
+    "has_company_logo": 0,
+    "description_excerpt": "Responsibilities :• Responsible for the delivery of outstanding customer service. • Answer inbound communications (phone calls and emails in the future) from individuals regarding general questions, including providing data on necessary forms, and status of existing cases. • Expected to follow client provided scripts and adhere to the established standard operating procedures. • Expected to adhere to the schedule, including starting on-time, taki"
+  },
+  {
+    "job_id": 1092,
+    "error_type": "FP",
+    "actual": 0,
+    "predicted": 1,
+    "score": 0.3968584214042092,
+    "title": "Book Keeper",
+    "has_company_logo": 0,
+    "description_excerpt": "Description The bookkeeper will process the company’s financial transactions in a timely and accurate manner and will report to the Operations Directors and work closely with the company’s accountant and other Directors.  Tasks Management of sage purchase order processing system to include the following:- Post authorised purchase orders ensuring that they are coded to the correct project.Match purchase orders with delivery notes and supplier invo"
+  },
+  {
+    "job_id": 3471,
+    "error_type": "FP",
+    "actual": 0,
+    "predicted": 1,
+    "score": 0.2894786460258305,
+    "title": "Controls - PLC Programmer",
+    "has_company_logo": 0,
+    "description_excerpt": "CONTROLS – PLC PROGRAMMEREDMONTON, ALBERTAPackers Plus is the pioneer of open hole, multi-stage horizontal fracturing and we provide technology-based solutions to the oil and gas industry around the world. We are currently recruiting for a Controls – PLC Programmer to join our team at our Edmonton manufacturing facility.Primary Role FocusMaintain and update existing software programs on automated equipment.• Reports to Automation Production Manag"
+  }
+]

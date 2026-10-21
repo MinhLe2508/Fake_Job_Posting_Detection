@@ -1,0 +1,316 @@
+[
+  {
+    "fold": 1,
+    "group": 7,
+    "n": 249,
+    "sample_job_ids": [
+      18,
+      83,
+      95
+    ],
+    "sample_titles": [
+      "Southend-on-Sea Traineeships Under NAS 16-18 Year Olds Only",
+      "Edinburgh Fragrance and Beauty Promotional Staff",
+      "WF17 9LU Customer Service Apprenticeship under NAS 16-18 year olds only!"
+    ],
+    "logo_rate": 1.0,
+    "locations_top3": {
+      "GB, WKF, Wakefield": 9,
+      "GB, , Leeds": 7,
+      "GB, , Birmingham": 6
+    }
+  },
+  {
+    "fold": 1,
+    "group": 20,
+    "n": 323,
+    "sample_job_ids": [
+      40,
+      45,
+      48
+    ],
+    "sample_titles": [
+      "Receptionist/Customer Service Technical Specialist ",
+      "Customer Service Team Lead ",
+      "Customer Service Associate "
+    ],
+    "logo_rate": 1.0,
+    "locations_top3": {
+      "US, NY, New York": 40,
+      "US, IN, Indianapolis": 16,
+      "US, CT, Windsor": 12
+    }
+  },
+  {
+    "fold": 1,
+    "group": 99,
+    "n": 18,
+    "sample_job_ids": [
+      99,
+      174,
+      216
+    ],
+    "sample_titles": [
+      "IC&E Technician",
+      "Technician Instrument & Controls ",
+      "IC&E Technician Mt Poso"
+    ],
+    "logo_rate": 1.0,
+    "locations_top3": {
+      "US, CA, Bakersfield": 8,
+      "US, CA, Bakersfield, CA": 2,
+      "US, CA, City of Industry": 2
+    }
+  },
+  {
+    "fold": 1,
+    "group": 375,
+    "n": 33,
+    "sample_job_ids": [
+      604,
+      1519,
+      1656
+    ],
+    "sample_titles": [
+      "Lead Mechanical Engineer",
+      "SAP Support Advisor",
+      "HSE Manager"
+    ],
+    "logo_rate": 0.7575757575757576,
+    "locations_top3": {
+      "US, TX, Houston": 32,
+      "(missing)": 1
+    }
+  },
+  {
+    "fold": 1,
+    "group": 1072,
+    "n": 20,
+    "sample_job_ids": [
+      1701,
+      6485,
+      6557
+    ],
+    "sample_titles": [
+      "Cruise Staff Wanted *URGENT*",
+      "Cruise Staff Wanted *URGENT*",
+      "Cruise Staff Wanted *URGENT*"
+    ],
+    "logo_rate": 0.0,
+    "locations_top3": {
+      "US, NY, MANHATTAN": 2,
+      "US, FL, orlando": 1,
+      "US, FL, TAMPA": 1
+    }
+  },
+  {
+    "fold": 2,
+    "group": 196,
+    "n": 48,
+    "sample_job_ids": [
+      318,
+      1164,
+      1845
+    ],
+    "sample_titles": [
+      "Account Manager",
+      "Junior Client Engineer",
+      "Inside Sales Manager"
+    ],
+    "logo_rate": 1.0,
+    "locations_top3": {
+      "GB, LND, London": 25,
+      "US, NY, New York": 8,
+      "GB, WSM, London": 6
+    }
+  },
+  {
+    "fold": 2,
+    "group": 230,
+    "n": 57,
+    "sample_job_ids": [
+      378,
+      637,
+      931
+    ],
+    "sample_titles": [
+      "Graphic / Web Designer",
+      "Texas Spanish Bilingual Communication Assistant",
+      "Office Assistant"
+    ],
+    "logo_rate": 1.0,
+    "locations_top3": {
+      "US, TX, Austin": 24,
+      "US, MN, Moorhead": 6,
+      "US, TX, Lubbock": 5
+    }
+  },
+  {
+    "fold": 2,
+    "group": 542,
+    "n": 5,
+    "sample_job_ids": [
+      860,
+      998,
+      3368
+    ],
+    "sample_titles": [
+      "Executive/Head Chef",
+      "EXECUTIVE SOUS CHEF",
+      "Executive Chef"
+    ],
+    "logo_rate": 0.6,
+    "locations_top3": {
+      "MY, , ": 2,
+      "MY, 16, Putrajaya": 1,
+      "MY, 14, Kuala lumpur": 1
+    }
+  },
+  {
+    "fold": 2,
+    "group": 2001,
+    "n": 20,
+    "sample_job_ids": [
+      3195,
+      3199,
+      5517
+    ],
+    "sample_titles": [
+      "Home Based Payroll Typist/Data Entry Clerks Positions Available",
+      "Home Based Payroll Typist/Data Entry Clerks Positions Available",
+      "Home Based Payroll Typist/Data Entry Clerks Positions Available"
+    ],
+    "logo_rate": 0.0,
+    "locations_top3": {
+      "US, AL, Abernant ": 1,
+      "US, MD, Accident ": 1,
+      "US, SD, Aberdeen ": 1
+    }
+  },
+  {
+    "fold": 2,
+    "group": 3518,
+    "n": 9,
+    "sample_job_ids": [
+      5688,
+      5692,
+      6852
+    ],
+    "sample_titles": [
+      "Network Marketing",
+      "Network Marketing",
+      "Network Marketing"
+    ],
+    "logo_rate": 0.0,
+    "locations_top3": {
+      "US, TX, ": 1,
+      "US, DE, ": 1,
+      "US, FL, ": 1
+    }
+  },
+  {
+    "fold": 3,
+    "group": 9,
+    "n": 359,
+    "sample_job_ids": [
+      20,
+      29,
+      68
+    ],
+    "sample_titles": [
+      "Process Controls Engineer - DCS PLC MS Office - PA",
+      "Talent Management Process Manager",
+      "Production Supervisor"
+    ],
+    "logo_rate": 0.0,
+    "locations_top3": {
+      "US, MI, Detroit": 51,
+      "US, OH, Cleveland": 43,
+      "US, IL, Chicago": 30
+    }
+  },
+  {
+    "fold": 3,
+    "group": 17,
+    "n": 589,
+    "sample_job_ids": [
+      36,
+      37,
+      41
+    ],
+    "sample_titles": [
+      "English Teacher Abroad ",
+      "Graduates: English Teacher Abroad ",
+      "English Teacher Abroad "
+    ],
+    "logo_rate": 1.0,
+    "locations_top3": {
+      "US, VA, Richmond": 2,
+      "US, NY, Fredonia": 2,
+      "US, IL, Evanston": 2
+    }
+  },
+  {
+    "fold": 3,
+    "group": 2263,
+    "n": 9,
+    "sample_job_ids": [
+      3609,
+      3612,
+      5745
+    ],
+    "sample_titles": [
+      "Account Sales Managers $80-$130,000/yr",
+      "Account Sales Managers $80-$130,000/yr",
+      "Account Sales Managers $80-$130,000/yr"
+    ],
+    "logo_rate": 1.0,
+    "locations_top3": {
+      "US, NY, Utica": 1,
+      "US, NY, Binghampton": 1,
+      "US, NY, Long Island": 1
+    }
+  },
+  {
+    "fold": 3,
+    "group": 2901,
+    "n": 11,
+    "sample_job_ids": [
+      4669,
+      4744,
+      5809
+    ],
+    "sample_titles": [
+      "Human Resource Director",
+      "Call Center Representative I",
+      "Employee Relations Specialist"
+    ],
+    "logo_rate": 1.0,
+    "locations_top3": {
+      "US, TX, AUSTIN": 4,
+      "US, TX, DALLAS": 2,
+      "US, TX, Austin": 1
+    }
+  },
+  {
+    "fold": 3,
+    "group": 3389,
+    "n": 41,
+    "sample_job_ids": [
+      607,
+      662,
+      2368
+    ],
+    "sample_titles": [
+      "Director of Strategy",
+      "Director of Strategy",
+      "Software Engineer | Forecasting & Optimization"
+    ],
+    "logo_rate": 1.0,
+    "locations_top3": {
+      "US, CA, San Mateo": 19,
+      "US, CA, San Jose": 6,
+      "US, NY, NY": 4
+    }
+  }
+]

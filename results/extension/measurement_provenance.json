@@ -1,0 +1,25 @@
+{
+  "record_type": "retrospective provenance audit, 2026-10-14; original measurements unchanged",
+  "source_archive": "Nhom7_TrackB_Final_2026-10-13.zip",
+  "source_validation_compare_sha256": "49416bafbb0350512e92a7401f1d83c18cb568765d343917963bc4f0718dd293",
+  "original_extension_code_sha256": "9cc448fd02410202455c2fc663df147aa21284620c4a5ccb893c0e74ffb3cadb",
+  "historical_environment": {
+    "python": "3.12.3",
+    "scikit-learn": "1.7.2",
+    "os": "Linux, stated in unit-test log",
+    "hardware": "not recorded",
+    "other_library_versions": "not recorded for this run"
+  },
+  "main_environment_file": "results/environment.json (separate Windows run; not extension environment)",
+  "historical_timing_scope": "timer begins before classifier.fit and ends after validation scoring and AP calculation; feature_views excluded",
+  "parallelism": "threadpool_limits(1) for native pools; RandomForest estimator n_jobs=2",
+  "future_timing_scope": "extension.py v2 separates fit_seconds and predict_seconds; not retroactively applied to historical numbers",
+  "svm_validation_AP_difference": {
+    "locked_validation_AP": 0.9035526972463648,
+    "refit_validation_AP": 0.9037701547306111,
+    "abs_diff": 0.0002174574842462862,
+    "environment_scikit_learn": "1.7.2"
+  },
+  "difference_diagnosis": "refit and locked SVM use different feature matrix construction paths (CSR cast in extension), Python and runtime; cause not isolated, do not claim exact reproduction",
+  "statistics": "5 folds overlap in training and are reused for selection; all tests exploratory; feature representations differ"
+}

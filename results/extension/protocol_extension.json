@@ -1,0 +1,28 @@
+{
+  "status": "supplementary, created after the model/threshold lock and after test was opened",
+  "does_not_modify": [
+    "results/selection.json",
+    "results/protocol.json",
+    "models/lock.json",
+    "results/test_metrics.json"
+  ],
+  "test_policy": "CSV chung được đọc để kiểm tra schema/trùng; chỉ tạo train/validation cho fit/chấm; không fit, chọn hoặc chấm các mô hình bổ sung trên test.",
+  "cv": "same 5 folds as data/cv_manifest.csv, preprocessing fit inside each fold",
+  "metric": "Average Precision (same as main protocol)",
+  "added_families": {
+    "NaiveBayes": "8 configs: {MultinomialNB, ComplementNB} x alpha {0.01,0.1,0.5,1.0}; text TF-IDF only (non-negative input)",
+    "HistGradientBoosting": "8 configs: learning_rate {0.05,0.1} x max_leaf_nodes {15,31} x class_weight {None,balanced}; max_iter=200, l2=1.0; SelectKBest(f_classif,k=2000) fit in-fold on the combined features"
+  },
+  "statistics": [
+    "paired t-test and Nadeau-Bengio corrected t-test on fold AP (Holm over 4 comparisons)",
+    "exact Wilcoxon (informational)",
+    "Friedman test across families",
+    "paired content_group bootstrap of validation AP difference (1000 reps)"
+  ],
+  "seed": 42,
+  "sklearn_version_used": "1.7.2",
+  "python": "3.12.3",
+  "caveat": "requirements.txt pins scikit-learn 1.7.2; the run may use a different installed version (see sklearn_version_used).",
+  "interpretation": "Exploratory pipeline comparison: dependent CV folds, selection on the same folds and differing representations.",
+  "measurement_provenance": "measurement_provenance.json; historical timing v1 is not pure fit time"
+}

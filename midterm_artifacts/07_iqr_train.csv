@@ -1,0 +1,6 @@
+﻿feature,observed_count,Q1,Q3,IQR,lower,upper,outlier_count,outlier_pct,note
+title_word_count,10836,2.0,4.0,2.0,-1.0,7.0,672,6.2015503875969,Áp dụng IQR
+company_profile_word_count,8849,54.0,148.0,94.0,-87.0,289.0,371,4.192564131540287,Áp dụng IQR
+description_word_count,10835,84.0,223.0,139.0,-124.5,431.5,392,3.617904937701892,Áp dụng IQR
+requirements_word_count,9276,38.0,118.0,80.0,-82.0,238.0,472,5.088400172488141,Áp dụng IQR
+benefits_word_count,6588,10.0,69.0,59.0,-78.5,157.5,288,4.371584699453552,Áp dụng IQR

@@ -1,0 +1,238 @@
+{
+  "seed": 42,
+  "dataset_sha256": "59253295129d8b6a27607f9904f7d4ddf4dbb0ee35e079c7eb51b58b5e62bf60",
+  "split_sha256": "86f5f783039a7e97c47442dd6cfd8d26b6110bd0116c5cd39aae9345bdef501f",
+  "cv_sha256": "2a810996e068a33c1e6ac8bec56a0d51027a182a4017ff8f7871575ce3f70562",
+  "selection": "mean CV Average Precision, deterministic config_id tie-break",
+  "threshold": "maximum validation recall subject to precision >= 0.80; ties higher precision then higher threshold",
+  "fallback": "If infeasible, declare business objective unmet; max-F1 threshold only a disclosed fallback",
+  "test_policy": "Open once after lock; selected combined model and fixed prior baseline only",
+  "ablation_policy": "Logistic Regression selected C/class_weight, same CV; diagnostic only, does not replace main winner",
+  "variants": [
+    "text_only",
+    "metadata_only",
+    "no_logo",
+    "no_log"
+  ],
+  "class_resampling": "none",
+  "configurations": [
+    {
+      "config_id": "LogisticRegression_01",
+      "model": "LogisticRegression",
+      "params": {
+        "C": 0.1,
+        "class_weight": null
+      }
+    },
+    {
+      "config_id": "LogisticRegression_02",
+      "model": "LogisticRegression",
+      "params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "config_id": "LogisticRegression_03",
+      "model": "LogisticRegression",
+      "params": {
+        "C": 1,
+        "class_weight": null
+      }
+    },
+    {
+      "config_id": "LogisticRegression_04",
+      "model": "LogisticRegression",
+      "params": {
+        "C": 1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "config_id": "LogisticRegression_05",
+      "model": "LogisticRegression",
+      "params": {
+        "C": 10,
+        "class_weight": null
+      }
+    },
+    {
+      "config_id": "LogisticRegression_06",
+      "model": "LogisticRegression",
+      "params": {
+        "C": 10,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "config_id": "LogisticRegression_07",
+      "model": "LogisticRegression",
+      "params": {
+        "C": 100,
+        "class_weight": null
+      }
+    },
+    {
+      "config_id": "LogisticRegression_08",
+      "model": "LogisticRegression",
+      "params": {
+        "C": 100,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "config_id": "LinearSVM_01",
+      "model": "LinearSVM",
+      "params": {
+        "C": 0.1,
+        "class_weight": null
+      }
+    },
+    {
+      "config_id": "LinearSVM_02",
+      "model": "LinearSVM",
+      "params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "config_id": "LinearSVM_03",
+      "model": "LinearSVM",
+      "params": {
+        "C": 1,
+        "class_weight": null
+      }
+    },
+    {
+      "config_id": "LinearSVM_04",
+      "model": "LinearSVM",
+      "params": {
+        "C": 1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "config_id": "LinearSVM_05",
+      "model": "LinearSVM",
+      "params": {
+        "C": 10,
+        "class_weight": null
+      }
+    },
+    {
+      "config_id": "LinearSVM_06",
+      "model": "LinearSVM",
+      "params": {
+        "C": 10,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "config_id": "LinearSVM_07",
+      "model": "LinearSVM",
+      "params": {
+        "C": 100,
+        "class_weight": null
+      }
+    },
+    {
+      "config_id": "LinearSVM_08",
+      "model": "LinearSVM",
+      "params": {
+        "C": 100,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "config_id": "RandomForest_01",
+      "model": "RandomForest",
+      "params": {
+        "class_weight": null,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+      }
+    },
+    {
+      "config_id": "RandomForest_02",
+      "model": "RandomForest",
+      "params": {
+        "class_weight": null,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "config_id": "RandomForest_03",
+      "model": "RandomForest",
+      "params": {
+        "class_weight": null,
+        "max_depth": null,
+        "min_samples_leaf": 1
+      }
+    },
+    {
+      "config_id": "RandomForest_04",
+      "model": "RandomForest",
+      "params": {
+        "class_weight": null,
+        "max_depth": null,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "config_id": "RandomForest_05",
+      "model": "RandomForest",
+      "params": {
+        "class_weight": "balanced_subsample",
+        "max_depth": 20,
+        "min_samples_leaf": 1
+      }
+    },
+    {
+      "config_id": "RandomForest_06",
+      "model": "RandomForest",
+      "params": {
+        "class_weight": "balanced_subsample",
+        "max_depth": 20,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "config_id": "RandomForest_07",
+      "model": "RandomForest",
+      "params": {
+        "class_weight": "balanced_subsample",
+        "max_depth": null,
+        "min_samples_leaf": 1
+      }
+    },
+    {
+      "config_id": "RandomForest_08",
+      "model": "RandomForest",
+      "params": {
+        "class_weight": "balanced_subsample",
+        "max_depth": null,
+        "min_samples_leaf": 5
+      }
+    }
+  ],
+  "versions": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  },
+  "threads_per_forest": 2,
+  "blas_threads": 1,
+  "bootstrap": {
+    "unit": "content_group",
+    "replicates": 1000,
+    "seed": 42,
+    "interval": "percentile 2.5% / 97.5%"
+  },
+  "training_code_sha256": "ed0b204c0374815515b6ff523ac6fd56d4667ad118791df395d9de7031c76a20",
+  "feature_code_sha256": "29a4706aadce538a711704da5bfb74c956aee23d8d6b86c8a0f1fe9feec7fbbc"
+}
