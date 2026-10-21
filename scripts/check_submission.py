@@ -82,6 +82,18 @@ def audit(root=ROOT):
     if len(reps)!=25 or {(r['repeat'],r['model']) for r in reps}!=expected:issues.append('Incomplete repeated benchmark')
     comp=json.loads((gg/'completion.json').read_text())
     if not comp['complete'] or not comp['frozen_hashes_unchanged']:issues.append('Generalization run not complete')
+    dd=root/'results/fold_diagnostics_2026-10-20'
+    pp=json.loads((dd/'protocol.json').read_text(encoding='utf-8'))
+    for path,h in pp['source_sha256'].items():
+        if hashlib.sha256((root/path).read_bytes()).hexdigest()!=h:issues.append('Diagnostic source changed: '+path)
+    if hashlib.sha256((root/'scripts/analyze_profile_folds.py').read_bytes()).hexdigest()!=pp['script_sha256']:issues.append('Fold diagnostic code mismatch')
+    with (dd/'ranked_predictions.csv').open(encoding='utf-8',newline='') as f: rr=list(csv.DictReader(f))
+    if len(rr)!=len(train_ids) or {row['job_id'] for row in rr}!=train_ids:issues.append('Invalid diagnostic prediction coverage')
+    for fold in ['1','2','3']:
+        subset=[row for row in rr if row['fold']==fold]
+        if not subset:issues.append('Missing fold diagnostic: '+fold)
+    done=json.loads((dd/'completion.json').read_text())
+    if not done['complete'] or not done['source_unchanged']:issues.append('Incomplete diagnostic run')
     return issues
 
 if __name__=='__main__':
