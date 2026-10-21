@@ -1,15 +1,13 @@
 {
-  "verified_on": "2026-10-19",
+  "verified_on": "2026-10-20",
   "pdf_pages": 29,
   "docx_pdf_export": "Microsoft Word",
   "visual_review": "All final pages rendered and visually reviewed",
-  "unit_tests_passed": 20,
-  "executed_notebook_code_cells": 17,
+  "unit_tests_passed": 23,
+  "executed_notebook_code_cells": 18,
   "notebook_errors": 0,
-  "new_experiments": {
-    "fixed_SVM_profile_group_fits": 3,
-    "benchmark_fits": 25
-  },
+  "new_model_fits_this_revision": 0,
+  "diagnostics": "descriptive fold composition and AP decomposition from unchanged 19/10 train OOF predictions",
   "original_main_experiment_rerun_this_revision": false,
   "frozen_hashes_unchanged": {
     "models/fake_job_detector.joblib": "3592e1ffa4766ddd7755c88b6d1e42f51abb26d216ebccfa03035b30e156093b",
@@ -20,7 +18,18 @@
     "results/test_predictions.csv": "91537b4b2767cf31d2cbf91418da2e3b61446ef3692ad4965ac35258ba085086",
     "src/fakejobs/features.py": "29a4706aadce538a711704da5bfb74c956aee23d8d6b86c8a0f1fe9feec7fbbc",
     "src/fakejobs/experiment.py": "ed0b204c0374815515b6ff523ac6fd56d4667ad118791df395d9de7031c76a20",
-    "CONTRIBUTIONS.md": "8d9446136d6d1ed2cc5307457899752dd4a1738ba5cc91d42bb2139a7202b790"
+    "CONTRIBUTIONS.md": "8d9446136d6d1ed2cc5307457899752dd4a1738ba5cc91d42bb2139a7202b790",
+    "results/generalization_2026-10-19/benchmark_repetitions.csv": "aa1ee4f04ecb5b419fe4a05971a004abe51424602df7df4d136a7bfb8e003087",
+    "results/generalization_2026-10-19/benchmark_scope.json": "6fd4fa41fb0f5db174d3aa4f0ebc96fd1aa8fc0e83a4733d7bda735f015bf582",
+    "results/generalization_2026-10-19/benchmark_summary.csv": "324a7ff98771e37f2d24ad11c7384d6ce8191cdfb2d1d604921343099a9ca7c5",
+    "results/generalization_2026-10-19/completion.json": "08fd0a220e00450d659e833538a677b9d17ca74b1be033da15cc5785c346f124",
+    "results/generalization_2026-10-19/hardware.json": "e54b66449c6e68e20929d13587a2547375773bff4a2acc3ca7c17f92e2420e9c",
+    "results/generalization_2026-10-19/profile_folds.csv": "007ea9a3ca7784516cd1e91ad46f86dcbfcad2c956512ab408fda1821d6ea70e",
+    "results/generalization_2026-10-19/profile_group_manifest.csv": "2d5921a66bdb14686cf7f471481ddd1b15cf8aba6a55accac4fa6c823e567656",
+    "results/generalization_2026-10-19/profile_predictions.csv": "70983917d53b360a35043508d31ac5b31908d6e7151df31af10ac4e14d51a93d",
+    "results/generalization_2026-10-19/profile_summary.json": "8e02518052a03c3832c2f9610313c32c4baf9eead502b20fa345a352eaba8e53",
+    "results/generalization_2026-10-19/protocol.json": "0e4a16ac3e9885377922478c21d10f5d11e2f041ba4b0f1ac3d4d996eb6acaf2",
+    "results/generalization_2026-10-19/threads.json": "0d3b91b86bebcaef9fb3ec72a3775519f5b4215314adbc3706cf75e9772b39b4"
   },
   "remaining_limits": [
     "personal contributions and school/instructor deferred to user",
@@ -28,7 +37,7 @@
     "profile check fixed SVM, not nested; C previously selected",
     "nested only LR/SVM",
     "benchmark same machine/matrices",
-    "test precision target unmet"
-  ],
-  "generalization_verified": "evidence/generalization_verified_2026-10-19.json"
+    "test precision target unmet",
+    "post-hoc fold analysis does not establish causality"
+  ]
 }

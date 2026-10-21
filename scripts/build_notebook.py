@@ -124,6 +124,16 @@ display(pd.read_csv(extra/'profile_folds.csv'))
 display(pd.read_csv(extra/'benchmark_summary.csv'))
 display(load_json(extra/'benchmark_scope.json'))
 display(load_json(extra/'completion.json'))''')
+md('''### 5.14 Thành phần fold và cách dùng số đo
+Phân tích dự đoán train đã lưu ngày 19/10; không fit lại, không sửa fold/ngưỡng. AP thấp ở fold 3 đi kèm tỷ lệ giả thấp, thứ hạng các nhóm giả thấp và nhiều tin thật đứng trước. Đây là mô tả, không phải kết luận nhân quả. Test AP 0,878 và profile CV 0,650 trả lời hai câu hỏi khác nhau; chưa số nào xác nhận hiệu quả trên doanh nghiệp mới.''')
+code('''diag = ROOT/'results/fold_diagnostics_2026-10-20'
+display(pd.read_csv(diag/'fold_composition.csv'))
+display(pd.read_csv(diag/'group_size_distribution.csv'))
+group_diag = pd.read_csv(diag/'group_diagnostics.csv')
+display(group_diag[(group_diag.fold==3) & group_diag.group.isin([17,9,3389,2901])])
+sys.path.insert(0, str(ROOT/'scripts'))
+from verify_fold_diagnostics import verify as verify_fold_diagnostics
+display(verify_fold_diagnostics())''')
 md('''## 6. Deployment và kiểm thử
 Demo chạy bằng `python demo/app.py`. Dữ liệu nhập chỉ ở bộ nhớ, không tự huấn luyện. Mẫu bên dưới thuộc validation đã dùng chọn ngưỡng, không phải đánh giá độc lập mới.''')
 code('''from fakejobs.inference import Detector

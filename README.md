@@ -134,3 +134,12 @@ Ba kiểm thử mới kiểm tra nối bắc cầu, profile thiếu và chuẩn 
 
 
 Kiểm tra số liệu bổ sung mà không huấn luyện lại: python scripts/verify_generalization.py. Lệnh này đối chiếu từng nhãn/dự đoán train, AP từng fold, nhóm nối bắc cầu và các phân vị thời gian với dữ liệu gốc đã lưu.
+
+## Phân tích thành phần fold ngày 20/10
+
+`PHAN_TICH_FOLD_PROFILE.md` giải thích fold 3 thấp dựa trên dữ liệu đã lưu, không huấn luyện lại. Kết quả ở `results/fold_diagnostics_2026-10-20/` có phân bố nhóm/lớp, thứ hạng, phân rã AP có xử lý tie và các nhóm tiêu biểu theo quy tắc công bố.
+
+Kiểm tra bằng `python scripts/verify_fold_diagnostics.py`. Để sinh lại, dùng bản sao dự án, chuyển thư mục kết quả ngày 20/10 hiện có ra ngoài bản sao, rồi chạy `python scripts/analyze_profile_folds.py`. Script từ chối ghi đè và giữ hash dự đoán gốc, mô hình/ngưỡng/test. Các phép đo ngày 19/10 vẫn giữ nguyên.
+
+Không dùng AP 0,878 làm cam kết cho nhà tuyển dụng mới. AP 0,650 là chẩn đoán ba fold train tách profile, không thay thế test. Ba kiểm thử mới kiểm tra tie, tính cộng được của phân rã AP và dữ liệu đầu vào không hợp lệ.
+
