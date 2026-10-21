@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "prediction_rows": 10836,
+  "groups": 3256,
+  "folds": 3,
+  "source_predictions_unchanged": true,
+  "AP_decomposition_verified": true
+}
